@@ -1,0 +1,316 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+enum AncestryAdjustmentType {
+  CONTINUOUS
+  DISCONTINUOUS
+}
+
+enum DevelopmentRoleType {
+  BASE
+  TUNING
+}
+
+enum PerformanceMetricType {
+  RISK_ASSOCIATION
+  DISCRIMINATING_POWER
+  OTHER
+}
+
+enum AssemblyType {
+  GRCh37
+  GRCh38
+}
+
+model TraitCategory {
+  id    Int    @id @default(autoincrement())
+  label String
+
+  // Relaciones
+  traits TraitToTraitCategory[]
+}
+
+model Trait {
+  id          Int     @id @default(autoincrement())
+  label       String
+  description String? @db.VarChar(3000)
+  URL         String?
+  efoId       String? @unique
+  mondoId     String? @unique
+  hpoId       String? @unique
+  orphaId     String? @unique
+
+  // Relaciones
+  categories TraitToTraitCategory[]
+  prsModels  PRSModelToTrait[]
+}
+
+model TraitToTraitCategory {
+  trait           Trait         @relation(fields: [traitId], references: [id])
+  traitId         Int
+  traitCategory   TraitCategory @relation(fields: [traitCategoryId], references: [id])
+  traitCategoryId Int
+
+  @@id([traitId, traitCategoryId])
+}
+
+model PRSModel {
+  id          Int     @id @default(autoincrement())
+  name        String
+  numberOfSNP Int?
+  pgscId      String? @unique
+  pgscURL     String? @unique
+
+  // Relaciones
+  modelEvaluations             ModelEvaluation[]
+  publication                  Publication                   @relation(fields: [publicationId], references: [id])
+  publicationId                Int
+  DevelopmentPopulationSamples DevelopmentPopulationSample[]
+  broadAncestryCategories      BroadAncestryInModel[]
+  prioritizedModels            PrioritizedModel[]
+  scoringFiles                 ScoringFile[]
+  traits                       PRSModelToTrait[]
+}
+
+model PRSModelToTrait {
+  prsModel   PRSModel @relation(fields: [prsModelId], references: [id])
+  prsModelId Int
+  trait      Trait    @relation(fields: [traitId], references: [id])
+  traitId    Int
+
+  @@id([prsModelId, traitId])
+}
+
+model ScoringFile {
+  id       Int          @id @default(autoincrement())
+  assembly AssemblyType
+  path     String
+
+  // Relaciones
+  prsModel   PRSModel @relation(fields: [prsModelId], references: [id])
+  prsModelId Int      @unique
+}
+
+model Publication {
+  id      Int       @id @default(autoincrement())
+  title   String
+  journal String
+  author  String
+  date    DateTime?
+  year    Int
+  PMID    String?   @unique
+  DOI     String?   @unique
+  pgpId   String?   @unique
+
+  // Relaciones
+  prsModels        PRSModel[]
+  modelEvaluations ModelEvaluation[]
+}
+
+model ModelEvaluation {
+  id            Int     @id @default(autoincrement())
+  reportedTrait String
+  covariates    String?
+  ppmId         String?
+
+  // Relaciones
+  prsModel                     PRSModel                      @relation(fields: [prsModelId], references: [id])
+  prsModelId                   Int
+  publication                  Publication                   @relation(fields: [publicationId], references: [id])
+  publicationId                Int
+  metricEvaluations            PerformanceMetricEvaluation[]
+  evaluationPopulationSample   EvaluationPopulationSample    @relation(fields: [evaluationPopulationSampleId], references: [id])
+  evaluationPopulationSampleId Int
+}
+
+model PerformanceMetricEvaluation {
+  id       Int    @id @default(autoincrement())
+  estimate Float
+  CILower  Float?
+  CIUpper  Float?
+
+  // Relaciones
+  modelEvaluation     ModelEvaluation   @relation(fields: [modelEvaluationId], references: [id])
+  modelEvaluationId   Int
+  performanceMetric   PerformanceMetric @relation(fields: [performanceMetricId], references: [id])
+  performanceMetricId Int
+}
+
+model PerformanceMetric {
+  id        Int                   @id @default(autoincrement())
+  nameShort String
+  nameLong  String?
+  type      PerformanceMetricType
+
+  // Relaciones
+  performanceMetricEvaluations PerformanceMetricEvaluation[]
+}
+
+model EvaluationPopulationSample {
+  id                  Int     @id @default(autoincrement())
+  numberOfIndividuals Int
+  numberOfCases       Int
+  numberOfControls    Int
+  percentMale         Float
+  age                 Float
+  ageUnits            String
+  ancestryBroad       String
+  ancestryDetails     String
+  cohort              String
+  gcId                String?
+  sourcePMID          String?
+  sourceDOI           String?
+  phenotypeFree       String
+  pssId               String?
+
+  // Relaciones
+  modelEvaluations      ModelEvaluation[]
+  broadAncestryCategory BroadAncestryCategory @relation(fields: [broadAncestryId], references: [id])
+  broadAncestryId       Int
+}
+
+model BroadAncestryCategory {
+  id     Int    @id @default(autoincrement())
+  symbol String
+  label  String
+
+  // Relaciones
+  DevelopmentPopulationSamples DevelopmentPopulationSample[]
+  EvaluationPopulationSamples  EvaluationPopulationSample[]
+  broadAncestryInModels        BroadAncestryInModel[]
+  broadAncestryInRefPops       BroadAncestryInRefPop[]
+}
+
+model BroadAncestryInModel {
+  percentage Float
+
+  // Relaciones
+  broadAncestryCategory BroadAncestryCategory @relation(fields: [broadAncestryId], references: [id])
+  broadAncestryId       Int
+  prsModel              PRSModel              @relation(fields: [prsModelId], references: [id])
+  prsModelId            Int
+
+  // Composite primary key
+  @@id([broadAncestryId, prsModelId])
+}
+
+model DevelopmentPopulationSample {
+  id                  Int                 @id @default(autoincrement())
+  numberOfIndividuals Int
+  numberOfCases       Int
+  numberOfControls    Int
+  percentMale         Float
+  age                 Float
+  ageUnits            String
+  ancestryBroad       String
+  ancestryDetails     String
+  cohort              String
+  gcId                String?
+  sourcePMID          String?
+  sourceDOI           String?
+  role                DevelopmentRoleType
+
+  // Relaciones
+  prsModel              PRSModel              @relation(fields: [prsModelId], references: [id])
+  prsModelId            Int
+  broadAncestryCategory BroadAncestryCategory @relation(fields: [broadAncestryId], references: [id])
+  broadAncestryId       Int
+}
+
+model BroadAncestryInRefPop {
+  percentage Float
+
+  // Relaciones
+  broadAncestryCategory BroadAncestryCategory @relation(fields: [broadAncestryId], references: [id])
+  broadAncestryId       Int
+  referencePopulation   ReferencePopulation   @relation(fields: [referencePopulationId], references: [id])
+  referencePopulationId Int
+
+  // Composite primary key
+  @@id([broadAncestryId, referencePopulationId])
+}
+
+model ReferencePopulation {
+  id          Int          @id @default(autoincrement())
+  name        String
+  description String?
+  studyURL    String?
+  assembly    AssemblyType
+
+  // Relaciones
+  prsAnalyses             PRSAnalysis[]
+  broadAncestryCategories BroadAncestryInRefPop[]
+}
+
+model PRSAnalysis {
+  id                 Int                    @id @default(autoincrement())
+  name               String
+  description        String?
+  userId             String?
+  date               String
+  status             String
+  HTMLResultPath     String
+  patientFormat      String
+  ancestryThreshold  Int
+  overlapThreshold   Int
+  ancestryAdjustment AncestryAdjustmentType
+  assembly           AssemblyType
+
+  // Relaciones
+  patient               Patient             @relation(fields: [patientId], references: [id])
+  patientId             Int
+  prioritizedModels     PrioritizedModel[]
+  referencePopulation   ReferencePopulation @relation(fields: [referencePopulationId], references: [id])
+  referencePopulationId Int
+}
+
+model PrioritizedModel {
+  position Int
+
+  // Relaciones
+  prsModel      PRSModel    @relation(fields: [prsModelId], references: [id])
+  prsModelId    Int
+  prsAnalysis   PRSAnalysis @relation(fields: [prsAnalysisId], references: [id])
+  prsAnalysisId Int
+  prsResult     PRSResult?
+  prsResultId   Int?
+
+  // Composite primary key
+  @@id([prsModelId, prsAnalysisId])
+}
+
+model PRSResult {
+  id             Int    @id @default(autoincrement())
+  prs            Float
+  percentile     String
+  overlapPercent Float
+
+  // Relaciones
+  prioritizedModel PrioritizedModel @relation(fields: [prsModelId, prsAnalysisId], references: [prsModelId, prsAnalysisId])
+  prsModelId       Int
+  prsAnalysisId    Int
+
+  @@unique([prsModelId, prsAnalysisId])
+}
+
+model Patient {
+  id               Int     @id @default(autoincrement())
+  patientId        String
+  VCFFilePath      String
+  genotypingMethod String?
+
+  // Relaciones
+  prsAnalyses PRSAnalysis[]
+}

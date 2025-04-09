@@ -1,0 +1,1594 @@
+{
+    "size": 50,
+    "count": 656,
+    "next": "https://www.pgscatalog.org/rest/trait/all?limit=50&offset=50",
+    "previous": null,
+    "results": [
+        {
+            "id": "EFO_0004214",
+            "label": "Abdominal Aortic Aneurysm",
+            "description": "Enlargement and ballooning of the vessel that supplies arterial blood to the abdomen, pelvis and legs. [NCIT: P378]",
+            "url": "http://www.ebi.ac.uk/efo/EFO_0004214",
+            "trait_categories": [
+                "Cardiovascular disease"
+            ],
+            "trait_synonyms": [
+                "Aortic Aneurysm, Abdominal",
+                "abdominal aortic aneurysm",
+                "aortic aneurysm, familial abdominal 1"
+            ],
+            "trait_mapped_terms": [
+                "DOID:7693",
+                "MEDGEN:56524",
+                "MESH:D017544",
+                "MONDO:0005350",
+                "MeSH:D017544",
+                "MedDRA:10000054",
+                "NCIt:C27000",
+                "SCTID:233985008",
+                "SNOMEDCT:233985008",
+                "UMLS:C0162871",
+                "icd11.foundation:1154633768"
+            ],
+            "associated_pgs_ids": [
+                "PGS000753",
+                "PGS001784",
+                "PGS002054",
+                "PGS003429",
+                "PGS003972",
+                "PGS003973"
+            ]
+        },
+        {
+            "id": "HP_0002027",
+            "label": "Abdominal pain",
+            "description": "An unpleasant sensation characterized by physical discomfort (such as pricking, throbbing, or aching) and perceived to originate in the abdomen.",
+            "url": "http://purl.obolibrary.org/obo/HP_0002027",
+            "trait_categories": [
+                "Other trait"
+            ],
+            "trait_synonyms": [
+                "Abdominal discomfort",
+                "Abdominal pain",
+                "Gastro pain",
+                "Gastrointestinal pain",
+                "Pain in stomach",
+                "Stomach pain",
+                "Upset stomach"
+            ],
+            "trait_mapped_terms": [
+                "ICD9:789.0",
+                "MEDDRA:10000081",
+                "NCIt:C26682",
+                "SNOMEDCT:21522001",
+                "SNOMEDCT_US:21522001",
+                "UMLS:C0000737"
+            ],
+            "associated_pgs_ids": [
+                "PGS001395",
+                "PGS001884",
+                "PGS002096",
+                "PGS004497",
+                "PGS004567"
+            ]
+        },
+        {
+            "id": "HP_0003119",
+            "label": "Abnormal circulating lipid concentration",
+            "description": "Any deviation from the normal concentration of a lipid in the blood circulation.",
+            "url": "http://purl.obolibrary.org/obo/HP_0003119",
+            "trait_categories": [
+                "Other trait"
+            ],
+            "trait_synonyms": [
+                "Dyslipidaemia",
+                "Dyslipidemia"
+            ],
+            "trait_mapped_terms": [
+                "NCIt:C80385",
+                "SNOMEDCT:370992007",
+                "SNOMEDCT_US:370992007",
+                "UMLS:C0242339",
+                "UMLS:C4025650"
+            ],
+            "associated_pgs_ids": [
+                "PGS001821",
+                "PGS002029"
+            ]
+        },
+        {
+            "id": "HP_0003115",
+            "label": "Abnormal EKG",
+            "description": "Abnormal rhythm of the heart.",
+            "url": "http://purl.obolibrary.org/obo/HP_0003115",
+            "trait_categories": [
+                "Cardiovascular disease"
+            ],
+            "trait_synonyms": [
+                "Abnormal ECG",
+                "Abnormal EKG",
+                "Abnormal electrocardiogram",
+                "EKG abnormality"
+            ],
+            "trait_mapped_terms": [
+                "SNOMEDCT_US:102594003",
+                "UMLS:C0522055"
+            ],
+            "associated_pgs_ids": [
+                "PGS000914"
+            ]
+        },
+        {
+            "id": "HP_0001000",
+            "label": "Abnormality of skin pigmentation",
+            "description": "An abnormality of the pigmentation of the skin.",
+            "url": "http://purl.obolibrary.org/obo/HP_0001000",
+            "trait_categories": [
+                "Other trait"
+            ],
+            "trait_synonyms": [
+                "Abnormal pigmentation",
+                "Abnormal skin color",
+                "Abnormal skin colour",
+                "Abnormal skin pigmentation",
+                "Abnormality of pigmentation",
+                "Abnormality of skin pigmentation",
+                "Pigmentary changes",
+                "Pigmentary skin changes",
+                "Pigmentation anomaly"
+            ],
+            "trait_mapped_terms": [
+                "UMLS:C1260926"
+            ],
+            "associated_pgs_ids": [
+                "PGS001897",
+                "PGS002110"
+            ]
+        },
+        {
+            "id": "HP_0000924",
+            "label": "Abnormality of the skeletal system",
+            "description": "An abnormality of the skeletal system.",
+            "url": "http://purl.obolibrary.org/obo/HP_0000924",
+            "trait_categories": [
+                "Other trait"
+            ],
+            "trait_synonyms": [
+                "Abnormality of the skeletal system",
+                "Skeletal abnormalities",
+                "Skeletal anomalies"
+            ],
+            "trait_mapped_terms": [
+                "ICD10:R29",
+                "UMLS:C4021790"
+            ],
+            "associated_pgs_ids": [
+                "PGS004380",
+                "PGS004381",
+                "PGS004382",
+                "PGS004383",
+                "PGS004384"
+            ]
+        },
+        {
+            "id": "EFO_0009460",
+            "label": "ACPA-negative rheumatoid arthritis",
+            "description": "A subtype of rheumatoid arthritis defined by the absence of autoantibodies that are directed against citrullinated peptides and proteins.",
+            "url": "http://www.ebi.ac.uk/efo/EFO_0009460",
+            "trait_categories": [
+                "Immune system disorder"
+            ],
+            "trait_synonyms": [
+                "anti-citrullinated protein antibody-negative rheumatoid arthritis"
+            ],
+            "trait_mapped_terms": [],
+            "associated_pgs_ids": [
+                "PGS000195"
+            ]
+        },
+        {
+            "id": "EFO_0009459",
+            "label": "ACPA-positive rheumatoid arthritis",
+            "description": "A subtype of rheumatoid arthritis defined by the presence of autoantibodies that are directed against citrullinated peptides and proteins.",
+            "url": "http://www.ebi.ac.uk/efo/EFO_0009459",
+            "trait_categories": [
+                "Immune system disorder"
+            ],
+            "trait_synonyms": [
+                "anti-citrullinated protein antibody-positive rheumatoid arthritis"
+            ],
+            "trait_mapped_terms": [],
+            "associated_pgs_ids": [
+                "PGS000194"
+            ]
+        },
+        {
+            "id": "MONDO_0002492",
+            "label": "acute kidney failure",
+            "description": "Sudden and sustained deterioration of the kidney function characterized by decreased glomerular filtration rate, increased serum creatinine or oliguria. [NCIT: C26808]",
+            "url": "http://purl.obolibrary.org/obo/MONDO_0002492",
+            "trait_categories": [
+                "Other disease"
+            ],
+            "trait_synonyms": [
+                "AKI",
+                "ARF",
+                "acute kidney injury",
+                "acute renal failure",
+                "kidney failure, acute"
+            ],
+            "trait_mapped_terms": [
+                "DOID:3021",
+                "ICD10CM:N17",
+                "MEDGEN:388570",
+                "MESH:D058186",
+                "NCIT:C26808",
+                "UMLS:C2609414",
+                "icd11.foundation:476391827"
+            ],
+            "associated_pgs_ids": [
+                "PGS004491",
+                "PGS004561"
+            ]
+        },
+        {
+            "id": "EFO_0000220",
+            "label": "acute lymphoblastic leukemia",
+            "description": "Leukemia with an acute onset, characterized by the presence of lymphoblasts in the bone marrow and the peripheral blood. It includes the acute B lymphoblastic leukemia and acute T lymphoblastic leukemia. [NCIT: C3167]",
+            "url": "http://www.ebi.ac.uk/efo/EFO_0000220",
+            "trait_categories": [
+                "Cancer"
+            ],
+            "trait_synonyms": [
+                "ALL",
+                "ALL - acute lymphocytic leukaemia",
+                "ALL - acute lymphocytic leukemia",
+                "acute lymphoblastic leukaemia (ALL)",
+                "acute lymphoblastic leukaemia (disease)",
+                "acute lymphoblastic leukemia",
+                "acute lymphoblastic leukemia (ALL)",
+                "acute lymphoblastic leukemia (disease)",
+                "acute lymphoblastic leukemia/lymphoma",
+                "acute lymphocytic leukaemia",
+                "acute lymphocytic leukemia",
+                "acute lymphocytic leukemias",
+                "acute lymphogenous leukaemia",
+                "acute lymphogenous leukemia",
+                "acute lymphoid leukaemia",
+                "acute lymphoid leukemia",
+                "leukemia, lymphoblastic, malignant",
+                "lymphoblastic leukaemia",
+                "lymphoblastic leukemia",
+                "lymphoblastic leukemia, acute",
+                "precursor Lymphoblasic leukaemia",
+                "precursor Lymphoblasic leukemia",
+                "precursor cell lymphoblastic leukaemia",
+                "precursor cell lymphoblastic leukemia",
+                "precursor lymphoblastic leukaemia",
+                "precursor lymphoblastic leukemia"
+            ],
+            "trait_mapped_terms": [
+                "COHD:134305",
+                "DOID:1037",
+                "DOID:9952",
+                "EFO:0000220",
+                "GARD:0000522",
+                "GARD:522",
+                "HP:0006721",
+                "ICD10:C91",
+                "ICD10:C91.0",
+                "ICD10:C91.00",
+                "ICD10:C91.9",
+                "ICD10:C91.90",
+                "ICD9:204",
+                "ICD9:204.0",
+                "ICD9:204.00",
+                "ICD9:204.9",
+                "ICDO:9835/3",
+                "MEDGEN:7317",
+                "MONDO:0004967",
+                "NCIT:C3167",
+                "Orphanet:513",
+                "SCTID:91857003",
+                "UMLS:C0023449"
+            ],
+            "associated_pgs_ids": [
+                "PGS003448"
+            ]
+        },
+        {
+            "id": "EFO_0008583",
+            "label": "acute myocardial infarction",
+            "description": "Necrosis of the myocardium, as a result of interruption of the blood supply to the area. It is characterized by a severe and rapid onset of symptoms that may include chest pain, often radiating to the left arm and left side of the neck, dyspnea, sweating, and palpitations. [NCIT: P378]",
+            "url": "http://www.ebi.ac.uk/efo/EFO_0008583",
+            "trait_categories": [
+                "Cardiovascular disease"
+            ],
+            "trait_synonyms": [
+                "AMI",
+                "acute myocardial infarction",
+                "acute myocardial infarction (disease)",
+                "myocardial infarction (disease), acute"
+            ],
+            "trait_mapped_terms": [
+                "DOID:9408",
+                "ICD10:I21",
+                "ICD10CM:I21.9",
+                "ICD9:410",
+                "ICD9:410.80",
+                "ICD9:410.81",
+                "ICD9:410.82",
+                "ICD9:410.9",
+                "ICD9:410.90",
+                "ICD9:410.91",
+                "ICD9:410.92",
+                "MEDGEN:57611",
+                "MONDO:0004781",
+                "MedDRA:10000891",
+                "MedDRA:10000892",
+                "MedDRA:10000893",
+                "MedDRA:10000894",
+                "MedDRA:10000895",
+                "MedDRA:10000896",
+                "MedDRA:10000897",
+                "MedDRA:10000898",
+                "MedDRA:10000899",
+                "MedDRA:10000900",
+                "MedDRA:10000901",
+                "MedDRA:10000902",
+                "MedDRA:10000903",
+                "MedDRA:10000904",
+                "MedDRA:10000905",
+                "MedDRA:10000906",
+                "MedDRA:10000907",
+                "MedDRA:10000908",
+                "MedDRA:10000909",
+                "MedDRA:10000910",
+                "MedDRA:10000911",
+                "MedDRA:10000912",
+                "MedDRA:10000913",
+                "MedDRA:10000914",
+                "MedDRA:10000915",
+                "MedDRA:10000916",
+                "MedDRA:10000917",
+                "MedDRA:10000918",
+                "MedDRA:10000919",
+                "MedDRA:10000920",
+                "MedDRA:10000921",
+                "MedDRA:10000922",
+                "MedDRA:10000923",
+                "MedDRA:10000924",
+                "MedDRA:10000925",
+                "MedDRA:10000926",
+                "MedDRA:10000927",
+                "MedDRA:10000928",
+                "MedDRA:10000929",
+                "MedDRA:10000930",
+                "MedDRA:10000931",
+                "MedDRA:10066641",
+                "NCIT:C35204",
+                "NCIt:C35204",
+                "SCTID:57054005",
+                "UMLS:C0155626",
+                "icd11.foundation:1334938734"
+            ],
+            "associated_pgs_ids": [
+                "PGS004458",
+                "PGS004528"
+            ]
+        },
+        {
+            "id": "EFO_0004347",
+            "label": "addictive behaviour",
+            "description": "The observable, measurable, and often pathological activity of an organism that portrays its inability to overcome a habit resulting in an insatiable craving for a substance or for performing certain acts. The addictive behavior includes the emotional and physical overdependence on the object of habit in increasing amount or frequency.",
+            "url": "http://www.ebi.ac.uk/efo/EFO_0004347",
+            "trait_categories": [
+                "Biological process"
+            ],
+            "trait_synonyms": [
+                "addictive behavior",
+                "behavior, addictive"
+            ],
+            "trait_mapped_terms": [
+                "MeSH:D016739",
+                "MedDRA:10079410"
+            ],
+            "associated_pgs_ids": [
+                "PGS002124"
+            ]
+        },
+        {
+            "id": "OBA_VT0005452",
+            "label": "adipose amount",
+            "description": "The amount of a adipose tissue. [AUTO: patterns/patterns/entity_attribute]",
+            "url": "http://purl.obolibrary.org/obo/OBA_VT0005452",
+            "trait_categories": [
+                "Other trait"
+            ],
+            "trait_synonyms": [
+                "amount of adipose tissue"
+            ],
+            "trait_mapped_terms": [],
+            "associated_pgs_ids": [
+                "PGS002811",
+                "PGS002812"
+            ]
+        },
+        {
+            "id": "EFO_0005056",
+            "label": "age at death",
+            "description": "The age at which death occurs.",
+            "url": "http://www.ebi.ac.uk/efo/EFO_0005056",
+            "trait_categories": [
+                "Other measurement"
+            ],
+            "trait_synonyms": [],
+            "trait_mapped_terms": [],
+            "associated_pgs_ids": [
+                "PGS000318",
+                "PGS000319"
+            ]
+        },
+        {
+            "id": "EFO_0004918",
+            "label": "age at diagnosis",
+            "description": "The age, measured from some defined time point e.g. birth at which a subject (e.g. a human patient) is diagnosed with some disease e.g. breast cancer.",
+            "url": "http://www.ebi.ac.uk/efo/EFO_0004918",
+            "trait_categories": [
+                "Other measurement"
+            ],
+            "trait_synonyms": [],
+            "trait_mapped_terms": [
+                "SNOMEDCT:423493009"
+            ],
+            "associated_pgs_ids": [
+                "PGS000935",
+                "PGS001371"
+            ]
+        },
+        {
+            "id": "EFO_0009101",
+            "label": "age at first birth measurement",
+            "description": "A measurement of the age at which a woman gave birth to her first live child",
+            "url": "http://www.ebi.ac.uk/efo/EFO_0009101",
+            "trait_categories": [
+                "Other measurement"
+            ],
+            "trait_synonyms": [],
+            "trait_mapped_terms": [],
+            "associated_pgs_ids": [
+                "PGS001912",
+                "PGS002127",
+                "PGS003505"
+            ]
+        },
+        {
+            "id": "EFO_0009749",
+            "label": "age at first sexual intercourse measurement",
+            "description": "A measurement of the age at which a person has the first sexual intercourse.",
+            "url": "http://www.ebi.ac.uk/efo/EFO_0009749",
+            "trait_categories": [
+                "Other measurement"
+            ],
+            "trait_synonyms": [],
+            "trait_mapped_terms": [
+                "PMID:27089180"
+            ],
+            "associated_pgs_ids": [
+                "PGS001007",
+                "PGS001938",
+                "PGS002156",
+                "PGS002215",
+                "PGS003520"
+            ]
+        },
+        {
+            "id": "EFO_0021784",
+            "label": "age at initiation of smoking",
+            "description": "Age of initation of the habit of smoking, the inhaling and exhaling of tobacco smoke.",
+            "url": "http://www.ebi.ac.uk/efo/EFO_0021784",
+            "trait_categories": [
+                "Other measurement"
+            ],
+            "trait_synonyms": [],
+            "trait_mapped_terms": [],
+            "associated_pgs_ids": [
+                "PGS003361",
+                "PGS003362",
+                "PGS003363",
+                "PGS003364"
+            ]
+        },
+        {
+            "id": "EFO_0004703",
+            "label": "age at menarche",
+            "description": "The age of onset of (human) menarche, the beginning of the first menstrual cycle in an individual",
+            "url": "http://www.ebi.ac.uk/efo/EFO_0004703",
+            "trait_categories": [
+                "Other measurement"
+            ],
+            "trait_synonyms": [],
+            "trait_mapped_terms": [
+                "NCIt:C19666",
+                "SNOMEDCT:398700009"
+            ],
+            "associated_pgs_ids": [
+                "PGS001915",
+                "PGS002131",
+                "PGS002310",
+                "PGS002382",
+                "PGS002431",
+                "PGS002480",
+                "PGS002529",
+                "PGS002578",
+                "PGS002627",
+                "PGS002676",
+                "PGS002815",
+                "PGS002816",
+                "PGS002817",
+                "PGS002818",
+                "PGS002819",
+                "PGS003508"
+            ]
+        },
+        {
+            "id": "EFO_0004704",
+            "label": "age at menopause",
+            "description": "The age of onset of (human) menopause, the beginning of the first menstrual cycle in an individual",
+            "url": "http://www.ebi.ac.uk/efo/EFO_0004704",
+            "trait_categories": [
+                "Other measurement"
+            ],
+            "trait_synonyms": [],
+            "trait_mapped_terms": [
+                "NCIt:C106497"
+            ],
+            "associated_pgs_ids": [
+                "PGS002820",
+                "PGS002821",
+                "PGS002822",
+                "PGS002823",
+                "PGS002824"
+            ]
+        },
+        {
+            "id": "EFO_0005782",
+            "label": "age-related hearing impairment",
+            "description": "Bilateral hearing loss caused by progressive degeneration of cochlear structures and central auditory pathways, typically associated with the aging process. [NCIT: C116367]",
+            "url": "http://www.ebi.ac.uk/efo/EFO_0005782",
+            "trait_categories": [
+                "Neurological disorder"
+            ],
+            "trait_synonyms": [
+                "ARHI",
+                "Presbycuses",
+                "age-related hearing impairment",
+                "age-related hearing loss",
+                "age-related hearing loss",
+                "presbyacusia",
+                "presbycusis",
+                "senile deafness"
+            ],
+            "trait_mapped_terms": [
+                "MEDGEN:10911",
+                "MESH:D011304",
+                "MONDO:0043765",
+                "NCIT:C116367",
+                "PMID:24939585",
+                "SCTID:49526009",
+                "UMLS:C0033074",
+                "icd11.foundation:1569854675"
+            ],
+            "associated_pgs_ids": [
+                "PGS000762",
+                "PGS000763"
+            ]
+        },
+        {
+            "id": "EFO_0001365",
+            "label": "age-related macular degeneration",
+            "description": "Age-related loss of vision in the central portion of the retina (macula), secondary to retinal degeneration. [NCIT: P378]",
+            "url": "http://www.ebi.ac.uk/efo/EFO_0001365",
+            "trait_categories": [
+                "Neurological disorder"
+            ],
+            "trait_synonyms": [
+                "AAMD - Age related macular degeneration",
+                "AGE RELAT MACULOPATHIES",
+                "AGE RELAT MACULOPATHY",
+                "AMD",
+                "AMD - Age-related macular degeneration",
+                "ARMD",
+                "ARMD - Age-related macular degeneration",
+                "Age Related Macular Degeneration",
+                "Age Related Maculopathies",
+                "Age related macular degeneration (disorder) [Ambiguous]",
+                "Age related maculopathy",
+                "Age-Related Macular Degenerations",
+                "Age-Related Maculopathies",
+                "Age-Related Maculopathy",
+                "Age-related macular degeneration (disorder)",
+                "Amended",
+                "Degeneration, Age-Related Macular",
+                "Degeneration, Macular",
+                "Degenerations, Age-Related Macular",
+                "Degenerations, Macular",
+                "Dystrophies, Macular",
+                "Dystrophy, Macular",
+                "MACULAR DEGENERATION NOS",
+                "MACULOPATHIES AGE RELAT",
+                "MACULOPATHY AGE RELAT",
+                "Macular Degeneration",
+                "Macular Degeneration, Age-Related",
+                "Macular Degenerations",
+                "Macular Degenerations, Age-Related",
+                "Macular Dystrophies",
+                "Macular Dystrophy",
+                "Macular degeneration (disorder)",
+                "Macular degeneration (senile) of retina, unspecified",
+                "Maculopathies, Age Related",
+                "Maculopathies, Age-Related",
+                "Maculopathy, Age Related",
+                "Maculopathy, Age-Related",
+                "SMD - Senile macular degeneration",
+                "Senile macular degeneration",
+                "Senile macular degeneration of retina",
+                "Senile macular retinal degeneration",
+                "Unspecified senile macular degeneration",
+                "age related Maculopathies",
+                "age related macular degeneration",
+                "age related maculopathy",
+                "age-related macular degeneration",
+                "macular degeneration, age-related"
+            ],
+            "trait_mapped_terms": [
+                "DOID:10871",
+                "DOID:4448",
+                "ICD9:362.50",
+                "MEDGEN:116576",
+                "MONDO:0005150",
+                "MeSH:D008268",
+                "MedDRA:10064930",
+                "NCIT:C84391",
+                "NCIt:C25416",
+                "NCIt:C84391",
+                "NIFSTD:birnlex_12812",
+                "OMIM:153800",
+                "OMIM:603075",
+                "OMIM:608895",
+                "OMIM:610149",
+                "OMIM:610698",
+                "OMIM:611378",
+                "OMIM:611488",
+                "OMIM:611953",
+                "OMIM:613757",
+                "OMIM:613761",
+                "OMIM:613778",
+                "OMIM:613784",
+                "OMIM:615439",
+                "OMIM:615489",
+                "OMIM:615591",
+                "OMIM:616118",
+                "OMIM:616170",
+                "OMIMPS:603075",
+                "Orphanet:279",
+                "SCTID:267718000",
+                "SNOMEDCT:267718000",
+                "UMLS:C0242383",
+                "icd11.foundation:1514301548"
+            ],
+            "associated_pgs_ids": [
+                "PGS001834",
+                "PGS002041",
+                "PGS002269",
+                "PGS004606",
+                "PGS004607",
+                "PGS004952"
+            ]
+        },
+        {
+            "id": "OBA_0005494",
+            "label": "aging rate",
+            "description": "The rate of the aging process.",
+            "url": "http://purl.obolibrary.org/obo/OBA_0005494",
+            "trait_categories": [
+                "Other measurement"
+            ],
+            "trait_synonyms": [],
+            "trait_mapped_terms": [],
+            "associated_pgs_ids": [
+                "PGS001071",
+                "PGS001072"
+            ]
+        },
+        {
+            "id": "OBA_1000840",
+            "label": "alcohol consumption quality",
+            "description": "The quality of a alcohol consumption. [obo: oba/patterns/entity_attribute_part_of]",
+            "url": "http://purl.obolibrary.org/obo/OBA_1000840",
+            "trait_categories": [
+                "Other measurement"
+            ],
+            "trait_synonyms": [
+                "quality of alcohol consumption"
+            ],
+            "trait_mapped_terms": [],
+            "associated_pgs_ids": [
+                "PGS000203",
+                "PGS000204",
+                "PGS001085",
+                "PGS001086",
+                "PGS001087",
+                "PGS001088",
+                "PGS001394",
+                "PGS001934",
+                "PGS002152",
+                "PGS002752",
+                "PGS002825",
+                "PGS002826",
+                "PGS002827",
+                "PGS002828",
+                "PGS002829",
+                "PGS002830",
+                "PGS002831",
+                "PGS002832",
+                "PGS002833",
+                "PGS002834",
+                "PGS002835",
+                "PGS002836",
+                "PGS002837",
+                "PGS002838",
+                "PGS002839",
+                "PGS003373",
+                "PGS003374",
+                "PGS003375",
+                "PGS003376"
+            ]
+        },
+        {
+            "id": "MONDO_0007079",
+            "label": "alcohol dependence",
+            "description": "Physical and psychological dependence on alcohol. [NCIT: P378]",
+            "url": "http://purl.obolibrary.org/obo/MONDO_0007079",
+            "trait_categories": [
+                "Neurological disorder"
+            ],
+            "trait_synonyms": [
+                "aerodigestive tract cancer, squamous cell, alcohol-related, protection against",
+                "alcohol dependence",
+                "alcohol dependence, protection against",
+                "alcohol dependence, susceptibility to",
+                "alcoholism"
+            ],
+            "trait_mapped_terms": [
+                "DOID:0050741",
+                "ICD9:303.90",
+                "ICD9:305.0",
+                "MEDGEN:1801",
+                "MESH:D000437",
+                "MESH:D010610",
+                "MESH:D019973",
+                "NCIT:C3325",
+                "NCIT:C93040",
+                "OMIM:103780",
+                "SCTID:66590003",
+                "UMLS:C0001973",
+                "icd11.foundation:1580466198"
+            ],
+            "associated_pgs_ids": [
+                "PGS002738",
+                "PGS002739"
+            ]
+        },
+        {
+            "id": "EFO_0007835",
+            "label": "alcohol dependence measurement",
+            "description": "quantification of some aspect of alcohol dependence or misuse, eg using a cummulative symptom score to determine the severity of a case of alcohol dependence",
+            "url": "http://www.ebi.ac.uk/efo/EFO_0007835",
+            "trait_categories": [
+                "Other measurement"
+            ],
+            "trait_synonyms": [
+                "alcohol misuse measurement"
+            ],
+            "trait_mapped_terms": [
+                "PMID:27151647"
+            ],
+            "associated_pgs_ids": [
+                "PGS000201",
+                "PGS000202"
+            ]
+        },
+        {
+            "id": "EFO_0004329",
+            "label": "alcohol drinking",
+            "description": "Behaviors associated with the ingesting of alcoholic beverages, including social drinking.",
+            "url": "http://www.ebi.ac.uk/efo/EFO_0004329",
+            "trait_categories": [
+                "Biological process"
+            ],
+            "trait_synonyms": [
+                "alcohol consumption"
+            ],
+            "trait_mapped_terms": [
+                "MeSH:D000428",
+                "NCIt:C16273"
+            ],
+            "associated_pgs_ids": [
+                "PGS001901",
+                "PGS002115",
+                "PGS002909",
+                "PGS002910",
+                "PGS002911",
+                "PGS002912",
+                "PGS002913"
+            ]
+        },
+        {
+            "id": "EFO_1000802",
+            "label": "alcoholic liver cirrhosis",
+            "description": "A disorder of the liver characterized by the presence of fibrotic scar tissue instead of healthy liver tissue. This condition is attributed to excessive consumption of alcoholic beverages. [NCIT: P378]",
+            "url": "http://www.ebi.ac.uk/efo/EFO_1000802",
+            "trait_categories": [
+                "Cancer",
+                "Digestive system disorder"
+            ],
+            "trait_synonyms": [
+                "Alcoholic Cirrhosis",
+                "Alcoholic cirrhosis of liver",
+                "Alcoholic cirrhosis of liver (disorder)",
+                "Alcoholic cirrhosis of liver (disorder) [Ambiguous]",
+                "Laennec's cirrhosis",
+                "Laennec's cirrhosis",
+                "Laennec's cirrhosis, alcoholic",
+                "Laennec's cirrhosis, alcoholic",
+                "Liver Cirrhosis, Alcoholic",
+                "Portal Cirrhosis",
+                "Portal cirrhosis",
+                "Portal cirrhosis (disorder)",
+                "Portal cirrhosis unspecified (disorder)",
+                "alcoholic cirrhosis",
+                "alcoholic cirrhosis of liver",
+                "alcoholic liver cirrhosis",
+                "portal cirrhosis"
+            ],
+            "trait_mapped_terms": [
+                "CSP:1754-7677",
+                "DOID:14018",
+                "ICD10:K70.3",
+                "ICD10CM:K70.3",
+                "ICD9:571.2",
+                "MEDGEN:6125",
+                "MESH:D008104",
+                "MONDO:0006644",
+                "MeSH:D008104",
+                "MedDRA:10001618",
+                "NCIT:C34782",
+                "NCIt:C34782",
+                "SCTID:419728003",
+                "SNOMEDCT:420054005",
+                "UMLS:C0023891"
+            ],
+            "associated_pgs_ids": [
+                "PGS000704",
+                "PGS001777",
+                "PGS004913"
+            ]
+        },
+        {
+            "id": "MONDO_0002326",
+            "label": "alcohol-induced mental disorder",
+            "description": "",
+            "url": "http://purl.obolibrary.org/obo/MONDO_0002326",
+            "trait_categories": [
+                "Neurological disorder"
+            ],
+            "trait_synonyms": [],
+            "trait_mapped_terms": [
+                "DOID:251",
+                "ICD9:291.8",
+                "ICD9:291.89",
+                "MEDGEN:1705315",
+                "UMLS:C5200920"
+            ],
+            "associated_pgs_ids": [
+                "PGS004449",
+                "PGS004519"
+            ]
+        },
+        {
+            "id": "EFO_0004533",
+            "label": "alkaline phosphatase measurement",
+            "description": "Alkaline phosphatase measurement is a quantification of alkaline phosphatase in blood. AP is a marker for bone and liver disease.",
+            "url": "http://www.ebi.ac.uk/efo/EFO_0004533",
+            "trait_categories": [
+                "Other measurement"
+            ],
+            "trait_synonyms": [
+                "AP"
+            ],
+            "trait_mapped_terms": [
+                "NCIt:C64432",
+                "SNOMEDCT:88810008"
+            ],
+            "associated_pgs_ids": [
+                "PGS000670",
+                "PGS000815",
+                "PGS001939",
+                "PGS002157",
+                "PGS003521",
+                "PGS004711",
+                "PGS004712",
+                "PGS004713",
+                "PGS004714"
+            ]
+        },
+        {
+            "id": "MONDO_0005271",
+            "label": "allergic disease",
+            "description": "An immune response that occurs following re-exposure to an innocuous antigen, and that requires the presence of existing antibodies against that antigen. This response involves the binding of IgE to mast cells, and may worsen with repeated exposures. [NCIT: C114476]",
+            "url": "http://purl.obolibrary.org/obo/MONDO_0005271",
+            "trait_categories": [
+                "Immune system disorder"
+            ],
+            "trait_synonyms": [
+                "allergic disease or disorder",
+                "allergic form of disease or disorder",
+                "allergic form of immune system disease",
+                "allergic hypersensitivity disease",
+                "allergic reaction",
+                "allergic response",
+                "allergy",
+                "disorder of type I hypersensitivity",
+                "hypersensitivity",
+                "hypersensitivity reaction type I disease",
+                "type I hypersensitivity disease"
+            ],
+            "trait_mapped_terms": [
+                "DOID:1205",
+                "ICD9:995.3",
+                "ICD9:V15.09",
+                "MEDGEN:9370",
+                "MESH:D006967",
+                "NCIT:C114476",
+                "SCTID:609328004",
+                "UMLS:C0020517"
+            ],
+            "associated_pgs_ids": [
+                "PGS000780",
+                "PGS000800",
+                "PGS000810",
+                "PGS000867",
+                "PGS001283",
+                "PGS001284",
+                "PGS001285",
+                "PGS001286",
+                "PGS001372",
+                "PGS003458",
+                "PGS003459",
+                "PGS003487",
+                "PGS003488",
+                "PGS003489"
+            ]
+        },
+        {
+            "id": "EFO_0005854",
+            "label": "allergic rhinitis",
+            "description": "Inflammation of the nasal mucous membranes caused by an IgE-mediated response to external allergens. The inflammation may also involve the mucous membranes of the sinuses, eyes, middle ear, and pharynx. Symptoms include sneezing, nasal congestion, rhinorrhea, and itching. It may lead to fatigue, drowsiness, and malaise thus causing impairment of the quality of life. [NCIT: C79532]",
+            "url": "http://www.ebi.ac.uk/efo/EFO_0005854",
+            "trait_categories": [
+                "Immune system disorder"
+            ],
+            "trait_synonyms": [
+                "AR",
+                "Alrh",
+                "Perenial allergic rhinitis",
+                "allergic form of rhinitis",
+                "allergic rhinitis",
+                "atopic rhinitis",
+                "non-seasonal allergic rhinitis",
+                "perennial allergic rhinitis",
+                "pollenosis",
+                "seasonal allergic rhinitis"
+            ],
+            "trait_mapped_terms": [
+                "DOID:4481",
+                "HP:0003193",
+                "ICD9:477",
+                "ICD9:477.8",
+                "ICD9:477.9",
+                "MEDGEN:382012",
+                "MONDO:0011786",
+                "MedDRA:10001723",
+                "MedDRA:10001727",
+                "NCIT:C79532",
+                "NCIt:C79532",
+                "OMIM:607154",
+                "SCTID:61582004",
+                "SNOMEDCT:61582004",
+                "UMLS:C2607914",
+                "icd11.foundation:1711769234"
+            ],
+            "associated_pgs_ids": [
+                "PGS001109"
+            ]
+        },
+        {
+            "id": "MONDO_0004975",
+            "label": "Alzheimer disease",
+            "description": "A progressive, neurodegenerative disease characterized by loss of function and death of nerve cells in several areas of the brain leading to loss of cognitive function such as memory and language. [NCIT: P378]",
+            "url": "http://purl.obolibrary.org/obo/MONDO_0004975",
+            "trait_categories": [
+                "Neurological disorder"
+            ],
+            "trait_synonyms": [
+                "AD",
+                "Alzheimer dementia",
+                "Alzheimer disease",
+                "Alzheimer disease, familial",
+                "Alzheimer's dementia",
+                "Alzheimer's disease",
+                "Alzheimers dementia",
+                "Alzheimers disease",
+                "presenile and senile dementia"
+            ],
+            "trait_mapped_terms": [
+                "DOID:10652",
+                "HP:0002511",
+                "ICD10CM:G30",
+                "ICD9:290.1",
+                "ICD9:331.0",
+                "MEDGEN:1853",
+                "MESH:D000544",
+                "NCIT:C2866",
+                "NIFSTD:birnlex_2092",
+                "Orphanet:238616",
+                "SCTID:142811000119104",
+                "UMLS:C0002395",
+                "icd11.foundation:1611724421"
+            ],
+            "associated_pgs_ids": [
+                "PGS000025",
+                "PGS000026",
+                "PGS000779",
+                "PGS000811",
+                "PGS000812",
+                "PGS000823",
+                "PGS000876",
+                "PGS000898",
+                "PGS000945",
+                "PGS001348",
+                "PGS001349",
+                "PGS001775",
+                "PGS001828",
+                "PGS002249",
+                "PGS002280",
+                "PGS002731",
+                "PGS002753",
+                "PGS003440",
+                "PGS003441",
+                "PGS003574",
+                "PGS003953",
+                "PGS003954",
+                "PGS003955",
+                "PGS003956",
+                "PGS003957",
+                "PGS003958",
+                "PGS003992",
+                "PGS004008",
+                "PGS004034",
+                "PGS004062",
+                "PGS004092",
+                "PGS004116",
+                "PGS004146",
+                "PGS004227",
+                "PGS004228",
+                "PGS004229",
+                "PGS004285",
+                "PGS004286",
+                "PGS004287",
+                "PGS004288",
+                "PGS004289",
+                "PGS004588",
+                "PGS004589",
+                "PGS004590",
+                "PGS004600",
+                "PGS004863",
+                "PGS004898"
+            ]
+        },
+        {
+            "id": "MONDO_0060766",
+            "label": "anal polyp",
+            "description": "A non-neoplastic or neoplastic polypoid lesion that arises from the anus. Representative examples include the fibroepithelial polyp and squamous papilloma. [NCIT: C3957]",
+            "url": "http://purl.obolibrary.org/obo/MONDO_0060766",
+            "trait_categories": [
+                "Digestive system disorder"
+            ],
+            "trait_synonyms": [
+                "anal polyp",
+                "polyp of anus",
+                "polyp of the anus"
+            ],
+            "trait_mapped_terms": [
+                "MEDGEN:75637",
+                "NCIT:C3957",
+                "SCTID:88580009",
+                "UMLS:C0267573",
+                "icd11.foundation:2038426249"
+            ],
+            "associated_pgs_ids": [
+                "PGS001859",
+                "PGS002070"
+            ]
+        },
+        {
+            "id": "MONDO_0002280",
+            "label": "anemia",
+            "description": "A reduction in the number of red blood cells, the amount of hemoglobin, and/or the volume of packed red blood cells. Clinically, anemia represents a reduction in the oxygen-transporting capacity of a designated volume of blood, resulting from an imbalance between blood loss (through hemorrhage or hemolysis) and blood production. Signs and symptoms of anemia may include pallor of the skin and mucous membranes, shortness of breath, palpitations of the heart, soft systolic murmurs, lethargy, and fatigability. [NCIT: C2869]",
+            "url": "http://purl.obolibrary.org/obo/MONDO_0002280",
+            "trait_categories": [
+                "Other disease"
+            ],
+            "trait_synonyms": [
+                "anaemia (disease)",
+                "anemia",
+                "anemia (disease)"
+            ],
+            "trait_mapped_terms": [
+                "DOID:2355",
+                "HP:0001903",
+                "ICD9:285.8",
+                "ICD9:285.9",
+                "MEDGEN:1526",
+                "MESH:D000740",
+                "NCIT:C2869",
+                "SCTID:271737000",
+                "UMLS:C0002871"
+            ],
+            "associated_pgs_ids": [
+                "PGS001305"
+            ]
+        },
+        {
+            "id": "EFO_0003913",
+            "label": "angina pectoris",
+            "description": "The symptom of paroxysmal pain consequent to MYOCARDIAL ISCHEMIA usually of distinctive character, location and radiation. It is thought to be provoked by a transient stressful situation during which the oxygen requirements of the MYOCARDIUM exceed that supplied by the CORONARY CIRCULATION.",
+            "url": "http://www.ebi.ac.uk/efo/EFO_0003913",
+            "trait_categories": [
+                "Cardiovascular disease"
+            ],
+            "trait_synonyms": [
+                "Angor Pectoris",
+                "Stenocardia",
+                "Stenocardias",
+                "angina",
+                "stable angina"
+            ],
+            "trait_mapped_terms": [
+                "ICD10:I20",
+                "ICD9:413",
+                "MeSH:D000787",
+                "MeSH:D060050",
+                "MedDRA:10002383",
+                "NCIt:C66914",
+                "SNOMEDCT:194828000",
+                "SNOMEDCT:233819005"
+            ],
+            "associated_pgs_ids": [
+                "PGS000703",
+                "PGS001260",
+                "PGS001261",
+                "PGS001262",
+                "PGS004457",
+                "PGS004527",
+                "PGS005047",
+                "PGS005048",
+                "PGS005049",
+                "PGS005050",
+                "PGS005051",
+                "PGS005052",
+                "PGS005053",
+                "PGS005054",
+                "PGS005055",
+                "PGS005056",
+                "PGS005057",
+                "PGS005058",
+                "PGS005059"
+            ]
+        },
+        {
+            "id": "EFO_0003898",
+            "label": "ankylosing spondylitis",
+            "description": "An autoimmune chronic inflammatory disorder characterized by inflammation in the vertebral joints of the spine and sacroiliac joints. It predominantly affects young males. Patients present with stiffness and pain in the spine. [NCIT: P378]",
+            "url": "http://www.ebi.ac.uk/efo/EFO_0003898",
+            "trait_categories": [
+                "Immune system disorder"
+            ],
+            "trait_synonyms": [
+                "Ankylosing Spondylarthritides",
+                "Ankylosing Spondylarthritis",
+                "Ankylosing Spondyloarthritides",
+                "Ankylosing Spondyloarthritis",
+                "BECHTEREW DIS",
+                "BECHTEREWS DIS",
+                "Bechterew Disease",
+                "Bechterew's Disease",
+                "Bechterews Disease",
+                "Bekhterev syndrome",
+                "Bekhterev's disease",
+                "MARIE STRUEMPELL DIS",
+                "Marie Struempell Disease",
+                "Marie-Struempell Disease",
+                "Marie-Strumpell disease",
+                "Rheumatoid Spondylitis",
+                "Spondylarthritides, Ankylosing",
+                "Spondylarthritis Ankylopoietica",
+                "Spondylarthritis, Ankylosing",
+                "Spondylitis, Ankylosing",
+                "Spondylitis, Rheumatoid",
+                "Spondyloarthritides, Ankylosing",
+                "Spondyloarthritis, Ankylosing",
+                "ankylosing spondylarthritis",
+                "ankylosing spondylitis"
+            ],
+            "trait_mapped_terms": [
+                "DOID:7147",
+                "ICD10:M45",
+                "ICD10CM:M45",
+                "ICD9:720.0",
+                "MEDGEN:11561",
+                "MESH:D013167",
+                "MONDO:0005306",
+                "MeSH:D013167",
+                "MedDRA:10002556",
+                "NANDO:1200870",
+                "NCIT:C84564",
+                "NCIt:C84564",
+                "Orphanet:825",
+                "SCTID:9631008",
+                "SNOMEDCT:9631008",
+                "UMLS:C0038013"
+            ],
+            "associated_pgs_ids": [
+                "PGS001267",
+                "PGS001268",
+                "PGS001876",
+                "PGS002089",
+                "PGS003420",
+                "PGS003421",
+                "PGS003422",
+                "PGS003423",
+                "PGS003424"
+            ]
+        },
+        {
+            "id": "EFO_0004302",
+            "label": "anthropometric measurement",
+            "description": "Anthropometry is a measurement of the size, weight, and proportions of the human or other primate body.",
+            "url": "http://www.ebi.ac.uk/efo/EFO_0004302",
+            "trait_categories": [
+                "Other measurement"
+            ],
+            "trait_synonyms": [
+                "anthropometric traits",
+                "anthropometry"
+            ],
+            "trait_mapped_terms": [
+                "MeSH:D000886"
+            ],
+            "associated_pgs_ids": [
+                "PGS001241",
+                "PGS001242",
+                "PGS001243",
+                "PGS001379",
+                "PGS001887",
+                "PGS002100"
+            ]
+        },
+        {
+            "id": "EFO_0006788",
+            "label": "anxiety disorder",
+            "description": "A category of psychiatric disorders which are characterized by anxious feelings or fear often accompanied by physical symptoms associated with anxiety. [NCIT: C2878]",
+            "url": "http://www.ebi.ac.uk/efo/EFO_0006788",
+            "trait_categories": [
+                "Neurological disorder"
+            ],
+            "trait_synonyms": [
+                "anxiety",
+                "anxiety disorder",
+                "anxiety disorders",
+                "anxiety neuroses",
+                "anxiety neurosis",
+                "anxiety state",
+                "anxiety/mood disorders",
+                "chronic stress",
+                "mood and anxiety disorder",
+                "mood and anxiety disorders",
+                "neurotic anxiety states"
+            ],
+            "trait_mapped_terms": [
+                "DOID:2030",
+                "ICD10:F41",
+                "ICD9:300.09",
+                "MEDGEN:361",
+                "MESH:D001008",
+                "MONDO:0005618",
+                "MeSH:D001008",
+                "MedDRA:10057666",
+                "NCIT:C2878",
+                "NCIt:C2878",
+                "SCTID:197480006",
+                "SNOMEDCT:197480006",
+                "UMLS:C0003469",
+                "Wikipedia:Anxiety_disorder"
+            ],
+            "associated_pgs_ids": [
+                "PGS004451",
+                "PGS004521"
+            ]
+        },
+        {
+            "id": "EFO_0009863",
+            "label": "anxiety measurement",
+            "description": "Quantification of the level of a generalised feeling of anxiety experienced by an individual, typically measured via a questionnaire.",
+            "url": "http://www.ebi.ac.uk/efo/EFO_0009863",
+            "trait_categories": [
+                "Other measurement"
+            ],
+            "trait_synonyms": [],
+            "trait_mapped_terms": [
+                "PMID:30867560"
+            ],
+            "associated_pgs_ids": [
+                "PGS001021"
+            ]
+        },
+        {
+            "id": "EFO_0020865",
+            "label": "aortic measurement",
+            "description": "Measurement of some parts of the aorta, including ascending aorta distensibility and area.",
+            "url": "http://www.ebi.ac.uk/efo/EFO_0020865",
+            "trait_categories": [
+                "Cardiovascular measurement"
+            ],
+            "trait_synonyms": [
+                "aortic diagnostic technique"
+            ],
+            "trait_mapped_terms": [],
+            "associated_pgs_ids": [
+                "PGS002236",
+                "PGS002267",
+                "PGS004927"
+            ]
+        },
+        {
+            "id": "EFO_0009531",
+            "label": "aortic valve disease",
+            "description": "A disease involving the aortic valve.",
+            "url": "http://www.ebi.ac.uk/efo/EFO_0009531",
+            "trait_categories": [
+                "Cardiovascular disease"
+            ],
+            "trait_synonyms": [
+                "aortic valve disease",
+                "aortic valve disease or disorder",
+                "aortic valve disorder",
+                "disease of aortic valve",
+                "disease or disorder of aortic valve",
+                "disorder of aortic valve"
+            ],
+            "trait_mapped_terms": [
+                "DOID:62",
+                "ICD10:I06",
+                "ICD10:I35",
+                "ICD9:395",
+                "ICD9:424.1",
+                "MEDGEN:226776",
+                "MONDO:0003803",
+                "MedDRA:10061589",
+                "NCIT:C78650",
+                "NCIt:C78650",
+                "OMIM:618496",
+                "UMLS:C1260873"
+            ],
+            "associated_pgs_ids": [
+                "PGS001025"
+            ]
+        },
+        {
+            "id": "EFO_0007659",
+            "label": "APOE carrier status",
+            "description": "quantification of the presence or absence of apolipoprotein E (APOE) in an individual",
+            "url": "http://www.ebi.ac.uk/efo/EFO_0007659",
+            "trait_categories": [
+                "Other measurement"
+            ],
+            "trait_synonyms": [],
+            "trait_mapped_terms": [],
+            "associated_pgs_ids": [
+                "PGS003440"
+            ]
+        },
+        {
+            "id": "EFO_0004614",
+            "label": "apolipoprotein A 1 measurement",
+            "description": "Is a quantification of apolipoprotein A 1 in a sample. It is encoded in humans by the APOA1 gene and is the major protein component of high density lipoprotein (HDL) in plasma. Apolipoprotein A 1 relates to lower observational risk of coronary artery disease.",
+            "url": "http://www.ebi.ac.uk/efo/EFO_0004614",
+            "trait_categories": [
+                "Cardiovascular measurement",
+                "Inflammatory measurement",
+                "Lipid or lipoprotein measurement"
+            ],
+            "trait_synonyms": [
+                "apo-AI levels",
+                "apoA-I levels",
+                "apolipoprotein A-1 levels",
+                "apolipoprotein A-I levels",
+                "apolipoprotein A1 levels"
+            ],
+            "trait_mapped_terms": [
+                "https://www.uniprot.org/uniprotkb/P02647/entry"
+            ],
+            "associated_pgs_ids": [
+                "PGS000671",
+                "PGS001888",
+                "PGS002101"
+            ]
+        },
+        {
+            "id": "EFO_0007848",
+            "label": "apolipoprotein A-IV measurement",
+            "description": "quantification of serum lipoprotein A-IV. Apolipoprotein A-IV, encoded in humans by the APOA4 gene,  a 376-residue mature O-linked glycoprotein.",
+            "url": "http://www.ebi.ac.uk/efo/EFO_0007848",
+            "trait_categories": [
+                "Lipid or lipoprotein measurement"
+            ],
+            "trait_synonyms": [
+                "lipoprotein A-IV levels"
+            ],
+            "trait_mapped_terms": [],
+            "associated_pgs_ids": [
+                "PGS003491"
+            ]
+        },
+        {
+            "id": "EFO_0004615",
+            "label": "apolipoprotein B measurement",
+            "description": "The measurement of ApoB in blood. Apolipoprotein B is a major protein constituent of chylomicrons (apo B-48), LDL (apo B-100) and VLDL (apo B-100). Apo B-100 functions as a recognition signal for the cellular binding and internalization of LDL particles by the apoB/E receptor, and is upregulated in response to enterovirus 71.",
+            "url": "http://www.ebi.ac.uk/efo/EFO_0004615",
+            "trait_categories": [
+                "Lipid or lipoprotein measurement"
+            ],
+            "trait_synonyms": [],
+            "trait_mapped_terms": [
+                "NCIt:C74734"
+            ],
+            "associated_pgs_ids": [
+                "PGS000672",
+                "PGS001889",
+                "PGS002102",
+                "PGS003492"
+            ]
+        },
+        {
+            "id": "EFO_0600086",
+            "label": "appendectomy",
+            "description": "Procedure to remove the appendix.",
+            "url": "http://www.ebi.ac.uk/efo/EFO_0600086",
+            "trait_categories": [
+                "Other trait"
+            ],
+            "trait_synonyms": [],
+            "trait_mapped_terms": [
+                "NCIT:C51687",
+                "SNOMEDCT:80146002",
+                "doi:10.1101/2021.11.19.21266436"
+            ],
+            "associated_pgs_ids": [
+                "PGS001786"
+            ]
+        },
+        {
+            "id": "EFO_0007149",
+            "label": "appendicitis",
+            "description": "Acute inflammation of the vermiform appendix. [NCIT: P378]",
+            "url": "http://www.ebi.ac.uk/efo/EFO_0007149",
+            "trait_categories": [
+                "Digestive system disorder",
+                "Immune system disorder"
+            ],
+            "trait_synonyms": [
+                "Appendicitis",
+                "acute appendicitis",
+                "acute appendicitis",
+                "acute appendicitis with generalised peritonitis",
+                "acute appendicitis with generalized peritonitis",
+                "acute appendicitis with generalized peritonitis",
+                "acute appendicitis with generalized peritonitis (disorder)",
+                "acute appendicitis with peritoneal abscess",
+                "acute appendicitis with peritoneal abscess",
+                "acute appendicitis with peritoneal abscess (disorder)",
+                "appendicitis",
+                "inflammation of vermiform appendix",
+                "vermiform appendix inflammation"
+            ],
+            "trait_mapped_terms": [
+                "DOID:8337",
+                "ICD10:K35",
+                "ICD10:K37",
+                "ICD9:540-543.99",
+                "ICD9:541",
+                "MEDGEN:1630",
+                "MESH:D001064",
+                "MONDO:0005649",
+                "MeSH:D001064",
+                "MedDRA:10003011",
+                "MedDRA:10003014",
+                "NCIT:C35145",
+                "SCTID:74400008",
+                "UMLS:C0003615",
+                "icd11.foundation:1881255733"
+            ],
+            "associated_pgs_ids": [
+                "PGS001369",
+                "PGS001785",
+                "PGS004876"
+            ]
+        },
+        {
+            "id": "EFO_0004517",
+            "label": "arterial stiffness measurement",
+            "description": "An Arterial stiffness measurement is the information output of a non invasive pulse wave velocity assay. Arterial stiffness is a predictor of cardiovascular mortality",
+            "url": "http://www.ebi.ac.uk/efo/EFO_0004517",
+            "trait_categories": [
+                "Cardiovascular measurement"
+            ],
+            "trait_synonyms": [
+                "arterial stiffness"
+            ],
+            "trait_mapped_terms": [],
+            "associated_pgs_ids": [
+                "PGS001519",
+                "PGS001520"
+            ]
+        },
+        {
+            "id": "EFO_0005856",
+            "label": "arthritis",
+            "description": "An inflammatory process affecting a joint. Causes include infection, autoimmune processes, degenerative processes, and trauma. Signs and symptoms may include swelling around the affected joint and pain. [NCIT: C2883]",
+            "url": "http://www.ebi.ac.uk/efo/EFO_0005856",
+            "trait_categories": [
+                "Other disease"
+            ],
+            "trait_synonyms": [
+                "arthritic joint disease",
+                "arthritides",
+                "arthritis",
+                "inflammation of skeletal joint",
+                "inflammatory disorder of joint",
+                "skeletal joint inflammation"
+            ],
+            "trait_mapped_terms": [
+                "DOID:848",
+                "ICD10:M13",
+                "MEDGEN:2043",
+                "MESH:D001168",
+                "MONDO:0005578",
+                "MeSH:D001168",
+                "MedDRA:10003246",
+                "NCIT:C2883",
+                "NCIt:C2883",
+                "SCTID:3723001",
+                "SNOMEDCT:3723001",
+                "UMLS:C0003864",
+                "Wikipedia:Arthritis"
+            ],
+            "associated_pgs_ids": [
+                "PGS001135",
+                "PGS004477",
+                "PGS004547"
+            ]
+        }
+    ]
+}
