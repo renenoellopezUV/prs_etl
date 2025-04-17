@@ -52,3 +52,49 @@ export async function insertTraitCategoryWithRelations(input: TraitCategoryInput
     },
   })
 }
+
+
+
+type PRSModelInput = {
+  name: string
+  numberOfSNP: number
+  pgscId: string
+  pgscURL: string
+}
+
+export async function insertPRSModel(data: any) {
+  const publication = data.publicationPmid
+    ? await prisma.publication.findUnique({ where: { PMID: data.publicationPmid } })
+    : null
+
+  if (!publication) {
+    throw new Error(`❌ No se encontró la publicación con PMID ${data.publicationPmid}`)
+  }
+
+  return await prisma.pRSModel.create({
+    data: {
+      name: data.name,
+      numberOfSNP: data.numberOfSNP,
+      pgscId: data.pgscId,
+      pgscURL: data.pgscURL,
+      publication: {
+        connect: { id: publication.id }
+      }
+    },
+  })
+}
+
+export async function insertPublication(data: any) {
+  return await prisma.publication.create({
+    data: {
+      pgpId: data.pgpId,
+      title: data.title,
+      journal: data.journal,
+      author: data.author,
+      date: data.date,
+      year: data.year,
+      PMID: data.pmid,
+      DOI: data.doi,
+    },
+  })
+}

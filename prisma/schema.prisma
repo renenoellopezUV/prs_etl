@@ -105,7 +105,7 @@ model ScoringFile {
 
 model Publication {
   id      Int       @id @default(autoincrement())
-  title   String
+  title String @db.VarChar(1000)
   journal String
   author  String
   date    DateTime?
