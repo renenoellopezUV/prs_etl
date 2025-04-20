@@ -18,8 +18,6 @@ export async function fetchAllTraits(): Promise<TraitJson[]> {
   let allResults: TraitJson[] = []
   let nextUrl: string | null = `${BASE_URL}/trait/all`
 
-  allResults = allResults.concat(data.results)
-
   while (nextUrl) {
     const res: Response = await fetch(nextUrl)
 
@@ -50,8 +48,6 @@ export async function fetchAllTraitCategories(): Promise<any[]> {
   return data
 }
 
-import fs from 'fs'
-import path from 'path'
 
 const BASE_URL = 'https://www.pgscatalog.org/rest'
 
@@ -128,3 +124,15 @@ export async function fetchAllPublicationsIncremental(
   console.log('✅ ETL de publicaciones completado.')
 }
 
+
+export async function fetchBroadAncestryCategories(): Promise<Record<string, any>> {
+  const res = await fetch(`${BASE_URL}/ancestry_categories/`)
+
+  if (!res.ok) {
+    throw new Error(`Error al obtener Broad Ancestry Categories: ${res.statusText}`)
+  }
+
+  const data = await res.json()
+  console.log(`✔️ Broad Ancestry Categories obtenidas: ${Object.keys(data).length}`)
+  return data
+}

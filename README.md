@@ -28,3 +28,13 @@ En app/repositories:
 En pages/api/etl
 - nombreTabla.ts para endpoint de invocacion al loader.
 
+
+Ejecutar:
+
+curl NEXT_PUBLIC_API_URL/etl/traits
+curl NEXT_PUBLIC_API_URL/etl/traitCategories
+curl NEXT_PUBLIC_API_URL/etl/publications
+curl NEXT_PUBLIC_API_URL/etl/prsModels
+curl NEXT_PUBLIC_API_URL/etl/prsModelTraits
+curl NEXT_PUBLIC_API_URL/etl/broadAncestryCategories
+curl NEXT_PUBLIC_API_URL/etl/developmentSamples

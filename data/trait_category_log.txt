@@ -1,0 +1,16 @@
+✅ Categoría insertada: Biological process
+✅ Categoría insertada: Body measurement
+✅ Categoría insertada: Cancer
+✅ Categoría insertada: Cardiovascular disease
+✅ Categoría insertada: Cardiovascular measurement
+✅ Categoría insertada: Digestive system disorder
+✅ Categoría insertada: Hematological measurement
+✅ Categoría insertada: Immune system disorder
+✅ Categoría insertada: Inflammatory measurement
+✅ Categoría insertada: Lipid or lipoprotein measurement
+✅ Categoría insertada: Metabolic disorder
+✅ Categoría insertada: Neurological disorder
+✅ Categoría insertada: Other disease
+✅ Categoría insertada: Other measurement
+✅ Categoría insertada: Other trait
+✅ Categoría insertada: Sex-specific PGS

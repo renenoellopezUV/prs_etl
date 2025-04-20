@@ -98,3 +98,82 @@ export async function insertPublication(data: any) {
     },
   })
 }
+
+export async function connectPRSModelWithTrait(pgscId: string, traitId: string) {
+  const prsModel = await prisma.pRSModel.findUnique({ where: { pgscId } })
+  if (!prsModel) throw new Error(`PRSModel no encontrado con pgscId ${pgscId}`)
+
+  const trait = await prisma.trait.findFirst({
+    where: {
+      OR: [
+        { efoId: traitId },
+        { mondoId: traitId },
+        { hpoId: traitId },
+        { orphaId: traitId },
+      ]
+    }
+  })
+  if (!trait) throw new Error(`Trait no encontrado con id ${traitId}`)
+
+  return await prisma.pRSModelToTrait.create({
+    data: {
+      prsModelId: prsModel.id,
+      traitId: trait.id,
+    }
+  })
+}
+
+
+export async function insertDevelopmentPopulationSample(data: any) {
+  const prsModel = await prisma.pRSModel.findUnique({
+    where: { pgscId: data.pgscId },
+  })
+
+  if (!prsModel) {
+    throw new Error(`PRSModel no encontrado con pgscId: ${data.pgscId}`)
+  }
+
+  return prisma.developmentPopulationSample.create({
+    data: {
+      numberOfIndividuals: data.numberOfIndividuals,
+      numberOfCases: data.numberOfCases,
+      numberOfControls: data.numberOfControls,
+      percentMale: data.percentMale,
+      age: data.age,
+      ageUnits: data.ageUnits,
+      ancestryBroad: data.ancestryBroad,
+      ancestryDetails: data.ancestryDetails,
+      cohort: data.cohort,
+      gcId: data.gcId,
+      sourcePMID: data.sourcePMID,
+      sourceDOI: data.sourceDOI,
+      role: data.role,
+      prsModel: { connect: { id: prsModel.id } },
+      broadAncestryCategory: { connect: {id: data.broadAncestryCategoryId }}
+    },
+  })
+}
+
+export async function insertBroadAncestryCategory(data: { symbol: string; label: string }) {
+  return await prisma.broadAncestryCategory.create({
+    data: {
+      symbol: data.symbol,
+      label: data.label
+    }
+  })
+}
+
+export async function getBroadAncestryCategoryIdByLabel(label: string): Promise<number | null> {
+  //console.log(`🔎 Buscando BroadAncestryCategory con label (insensitive): "${label}"`)
+
+  const allCategories = await prisma.broadAncestryCategory.findMany()
+
+  const match = allCategories.find(c => c.label.toLowerCase() === label.toLowerCase())
+
+  if (match) {
+    return match.id
+  } else {
+    console.warn(`❌ No se encontró BroadAncestryCategory con label (insensitive): "${label}"`)
+    return null
+  }
+}

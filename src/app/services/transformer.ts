@@ -63,6 +63,13 @@ export function transformPRSModel(raw: any) {
     publicationPmid: typeof pmid === 'number' ? pmid.toString() : (pmid ?? null),
   }
 }
+
+export function extractPRSModelTraitRelations(raw: any) {
+  const pgscId = raw.id
+  const traits = raw.trait_efo?.map((trait: any) => trait.id) ?? []
+  return { pgscId, traitIds: traits }
+}
+
 export function transformAllPRSModels(rawData: any): ReturnType<typeof transformPRSModel>[] {
   const rawResults = rawData?.results
 
@@ -92,4 +99,59 @@ export function transformPublication(raw: any) {
       : raw.PMID?.toString() ?? null, // 🔄 Convertir PMID a string
     doi: raw.doi?.trim() || 'PENDIENTE',
   }
+}
+
+type RawSample = {
+  sample_number: number
+  sample_cases: number | null
+  sample_controls: number | null
+  sample_percent_male: number | null
+  sample_age?: {
+    estimate: number
+    unit: string
+  }
+  ancestry_broad: string
+  ancestry_free: string | null
+  ancestry_country: string | null
+  source_GWAS_catalog: string | null
+  source_PMID: string | null
+  source_DOI: string | null
+  cohorts: { name_full: string; name_short: string }[]
+}
+
+type RawPRSModelSamples = {
+  id: string
+  samples_variants: RawSample[]
+  samples_training: RawSample[]
+}
+
+export function extractDevelopmentPopulationSamples(raw: RawPRSModelSamples): any[] {
+  const extract = (sample: RawSample, role: string) => ({
+    numberOfIndividuals: sample.sample_number,
+    numberOfCases: sample.sample_cases,
+    numberOfControls: sample.sample_controls,
+    percentMale: sample.sample_percent_male,
+    age: sample.sample_age?.estimate ?? null,
+    ageUnits: sample.sample_age?.unit ?? null,
+    ancestryBroad: sample.ancestry_broad,
+    ancestryDetails: sample.ancestry_free,
+    cohort: sample.cohorts?.map(c => `${c.name_full} (${c.name_short})`).join(', ') ?? null,
+    gcId: sample.source_GWAS_catalog,
+    sourcePMID: sample.source_PMID?.toString() ?? null,
+    sourceDOI: sample.source_DOI,
+    role,
+    pgscId: raw.id
+  })
+
+  return [
+    ...(raw.samples_variants || []).map(s => extract(s, 'BASE')),
+    ...(raw.samples_training || []).map(s => extract(s, 'TUNING')),
+  ]
+}
+
+export function transformBroadAncestryCategories(rawData: Record<string, any>) {
+  return Object.entries(rawData).map(([symbol, value]) => ({
+    symbol,
+    label: value.display_category
+  }))
 }
