@@ -1,4 +1,7 @@
 import { prisma } from '@/utils/prisma'
+import { log } from '../../utils/logging'
+import { BROAD_ANCESTRY_MAPPING } from '../../utils/broadAncestryMapping'
+
 
 type TraitInput = {
   label: string
@@ -176,4 +179,87 @@ export async function getBroadAncestryCategoryIdByLabel(label: string): Promise<
     console.warn(`❌ No se encontró BroadAncestryCategory con label (insensitive): "${label}"`)
     return null
   }
+}
+
+
+export async function insertModelEvaluation(data: any) {
+  const pgscId = data.pgscId
+  const pgpId = data.pgpId
+  const evaluationPopulationSampleId = data.evaluationPopulationSampleId
+
+  const prsModel = await prisma.pRSModel.findUnique({
+    where: { pgscId }
+  })
+  if (!prsModel) throw new Error(`❌ PRSModel no encontrado: ${pgscId}`)
+
+  const publication = await prisma.publication.findUnique({
+    where: { pgpId }
+  })
+  if (!publication) throw new Error(`❌ Publication no encontrada: ${pgpId}`)
+
+  return await prisma.modelEvaluation.create({
+    data: {
+      ppmId: data.ppmId,
+      reportedTrait: data.reportedTrait,
+      covariates: data.covariates,
+      prsModel: { connect: { id: prsModel.id } },
+      publication: { connect: { id: publication.id } },
+      evaluationPopulationSample: { connect: { id: evaluationPopulationSampleId } }
+    }
+  })
+}
+
+export async function findOrCreateEvaluationSample(data: any) {
+  const {
+    numberOfIndividuals,
+    numberOfCases,
+    numberOfControls,
+    percentMale,
+    age,
+    ageUnits,
+    ancestryBroad,
+    ancestryDetails,
+    cohort,
+    gcId,
+    sourcePMID,
+    sourceDOI,
+    phenotypeFree,
+    pssId,
+    broadAncestryId,
+  } = data
+
+  if (!pssId) {
+    console.warn(`⚠️ SampleSet sin PSS ID válido`)
+    return null
+  }
+
+  // Verificar si ya existe un sample con ese PSS ID
+  const existing = await prisma.evaluationPopulationSample.findFirst({
+    where: { pssId },
+  })
+
+  if (existing) return existing
+
+  // Crear nuevo sample
+  return await prisma.evaluationPopulationSample.create({
+    data: {
+      numberOfIndividuals,
+      numberOfCases,
+      numberOfControls,
+      percentMale,
+      age,
+      ageUnits,
+      ancestryBroad,
+      ancestryDetails,
+      cohort,
+      gcId,
+      sourcePMID,
+      sourceDOI,
+      phenotypeFree,
+      pssId,
+      broadAncestryCategory: {
+        connect: { id: broadAncestryId }
+      }
+    }
+  })
 }

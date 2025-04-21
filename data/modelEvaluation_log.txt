@@ -1,0 +1,1304 @@
+⚠️ No se pudo procesar el sample para PPM ID PPM000001
+⚠️ No se pudo procesar el sample para PPM ID PPM000002
+⚠️ No se pudo procesar el sample para PPM ID PPM000003
+⚠️ No se pudo procesar el sample para PPM ID PPM000004
+⚠️ No se pudo procesar el sample para PPM ID PPM000005
+⚠️ No se pudo procesar el sample para PPM ID PPM000006
+⚠️ No se pudo procesar el sample para PPM ID PPM000007
+⚠️ No se pudo procesar el sample para PPM ID PPM000008
+⚠️ No se pudo procesar el sample para PPM ID PPM000009
+⚠️ No se pudo procesar el sample para PPM ID PPM000010
+⚠️ No se pudo procesar el sample para PPM ID PPM000011
+⚠️ No se pudo procesar el sample para PPM ID PPM000012
+⚠️ No se pudo procesar el sample para PPM ID PPM000013
+⚠️ No se pudo procesar el sample para PPM ID PPM000014
+⚠️ No se pudo procesar el sample para PPM ID PPM000015
+⚠️ No se pudo procesar el sample para PPM ID PPM000016
+⚠️ No se pudo procesar el sample para PPM ID PPM000017
+⚠️ No se pudo procesar el sample para PPM ID PPM000018
+⚠️ No se pudo procesar el sample para PPM ID PPM000019
+⚠️ No se pudo procesar el sample para PPM ID PPM000020
+⚠️ No se pudo procesar el sample para PPM ID PPM000021
+⚠️ No se pudo procesar el sample para PPM ID PPM000022
+⚠️ No se pudo procesar el sample para PPM ID PPM000001
+⚠️ No se pudo procesar el sample para PPM ID PPM000002
+⚠️ No se pudo procesar el sample para PPM ID PPM000003
+⚠️ No se pudo procesar el sample para PPM ID PPM000004
+⚠️ No se pudo procesar el sample para PPM ID PPM000005
+⚠️ No se pudo procesar el sample para PPM ID PPM000006
+⚠️ No se pudo procesar el sample para PPM ID PPM000007
+⚠️ No se pudo procesar el sample para PPM ID PPM000008
+⚠️ No se pudo procesar el sample para PPM ID PPM000009
+⚠️ No se pudo procesar el sample para PPM ID PPM000010
+⚠️ No se pudo procesar el sample para PPM ID PPM000011
+⚠️ No se pudo procesar el sample para PPM ID PPM000012
+⚠️ No se pudo procesar el sample para PPM ID PPM000013
+⚠️ No se pudo procesar el sample para PPM ID PPM000014
+⚠️ No se pudo procesar el sample para PPM ID PPM000015
+⚠️ No se pudo procesar el sample para PPM ID PPM000016
+❌ Error al insertar ModelEvaluation PPM ID PPM000001: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000002: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000003: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000004: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000005: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000006: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000007: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000008: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000009: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000010: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000011: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000012: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000013: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000014: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000015: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000016: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000017: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000018: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000019: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000020: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000021: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000022: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000023: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000024: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000025: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000026: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000027: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000028: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000029: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000030: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000031: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000032: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000033: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000034: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000035: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000036: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000037: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000038: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000039: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000040: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000041: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000042: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000043: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000044: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000045: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000046: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000047: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000048: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000049: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000050: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000051: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000052: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000053: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000054: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000055: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000056: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000057: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000058: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000059: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000060: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000061: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000062: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000063: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000064: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000065: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000066: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000067: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000068: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000069: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000070: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000071: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000072: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000073: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000074: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000075: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000076: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000077: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000078: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000079: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000080: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000081: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000082: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000083: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000084: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000085: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000086: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000087: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000088: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000089: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000090: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000091: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000092: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000093: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000094: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000095: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000096: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000097: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000098: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000099: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000100: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000101: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000102: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000103: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000104: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000105: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000106: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000107: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000108: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000109: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000110: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000111: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000112: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000113: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000114: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000115: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000116: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000117: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000118: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000119: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000120: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000121: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000122: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000123: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000124: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000125: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000126: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000127: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000128: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000129: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000130: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000131: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000132: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000133: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000134: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000135: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000136: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000137: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000138: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000139: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000140: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000141: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000142: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000143: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000144: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000145: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000146: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000147: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000148: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000149: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000150: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000151: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000152: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000153: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000154: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000155: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000156: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000157: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000158: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000159: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000160: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000161: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000162: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000163: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000164: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000165: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000166: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000167: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000168: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000169: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000170: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000171: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000172: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000173: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000174: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000175: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000176: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000177: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000178: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000179: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000180: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000181: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000182: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000183: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000184: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000185: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000186: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000187: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000188: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000189: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000190: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000191: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000192: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000193: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000194: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000195: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000196: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000197: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000198: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000199: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000200: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000201: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000202: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000203: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000204: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000206: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000207: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000208: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000209: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000210: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000211: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000212: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000213: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000214: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000215: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000216: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000217: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000218: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000219: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000220: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000221: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000222: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000223: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000224: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000225: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000226: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000227: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000228: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000229: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000230: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000231: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000232: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000233: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000234: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000235: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000236: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000237: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000238: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000239: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000240: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000241: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000242: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000243: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000244: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000245: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000246: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000247: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000248: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000249: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000250: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000251: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000252: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000253: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000254: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000255: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000256: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000257: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000258: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000259: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000260: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000261: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000262: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000263: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000264: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000265: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000266: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000267: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000268: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000339: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000340: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000341: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000342: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000343: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000344: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000345: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000346: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000347: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000348: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000349: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000350: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000351: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000352: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000353: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000354: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000355: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000356: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000357: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000358: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000359: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000360: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000361: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000362: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000363: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000364: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000365: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000366: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000367: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000368: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000369: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000370: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000371: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000372: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000373: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000374: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000375: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000376: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000377: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000378: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000379: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000380: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000381: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000382: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000383: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000384: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000385: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000386: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000387: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000388: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000389: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000390: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000391: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000392: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000393: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000394: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000395: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000396: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000397: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000398: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000399: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000400: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000401: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000402: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000403: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000404: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000405: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000406: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000407: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000408: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000409: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000410: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000411: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000412: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000413: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000414: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000415: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000416: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000417: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000418: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000420: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000421: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000422: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000423: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000424: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000425: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000426: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000427: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000428: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000429: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000430: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000431: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000432: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000433: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000434: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000435: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000436: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000437: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000438: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000439: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000440: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000441: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000442: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000443: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000444: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000445: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000446: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000447: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000448: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000449: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000450: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000451: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000452: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000453: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000454: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000455: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000456: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000457: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000458: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000459: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000460: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000461: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000462: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000463: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000464: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000465: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000466: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000467: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000468: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000469: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000470: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000471: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000472: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000473: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000474: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000475: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000476: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000477: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000478: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000479: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000480: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000481: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000482: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000483: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000484: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000485: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000486: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000487: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000488: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000489: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000490: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000491: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000492: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000493: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000494: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000495: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000496: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000497: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000498: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000499: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000500: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000501: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000502: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000503: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000504: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000505: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000506: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000507: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000508: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000509: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000510: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000511: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000512: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000513: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000514: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000515: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000516: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000517: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000518: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000519: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000520: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000521: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000522: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000523: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000524: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000525: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000526: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000527: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000528: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000529: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000530: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000531: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000532: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000533: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000534: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000535: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000536: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000537: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000538: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000539: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000540: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000541: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000542: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000543: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000544: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000545: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000546: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000547: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000548: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000549: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000550: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000551: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000552: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000553: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000554: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000555: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000556: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000557: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000558: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000559: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000560: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000561: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000562: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000563: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000564: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000565: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000566: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000567: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000568: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000569: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000570: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000571: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000572: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000573: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000574: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000575: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000576: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000577: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000578: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000579: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000580: TypeError: Cannot read properties of null (reading 'toLowerCase')
+❌ Error al insertar ModelEvaluation PPM ID PPM000581: TypeError: Cannot read properties of null (reading 'toLowerCase')
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000001
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000002
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000003
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000004
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000005
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000006
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000007
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000008
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000009
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000010
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000011
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000012
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000013
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000014
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000015
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000016
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000017
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000018
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000019
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000020
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000021
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000022
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000023
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000024
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000025
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000026
+⚠️ No se pudo normalizar la ancestry_broad='European, NR' en PPM ID PPM000027
+⚠️ No se pudo normalizar la ancestry_broad='European, NR' en PPM ID PPM000028
+⚠️ No se pudo normalizar la ancestry_broad='European, NR' en PPM ID PPM000029
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000030
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000031
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000032
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000033
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000034
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000035
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000036
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000037
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000038
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000039
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000040
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000041
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000042
+⚠️ No se pudo normalizar la ancestry_broad='Hispanic or Latin American' en PPM ID PPM000043
+⚠️ No se pudo normalizar la ancestry_broad='African American or Afro-Caribbean' en PPM ID PPM000044
+⚠️ No se pudo normalizar la ancestry_broad='African unspecified' en PPM ID PPM000045
+⚠️ No se pudo normalizar la ancestry_broad='African unspecified' en PPM ID PPM000046
+⚠️ No se pudo normalizar la ancestry_broad='African unspecified' en PPM ID PPM000047
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000048
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000049
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000050
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000051
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000052
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000053
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000054
+⚠️ No se pudo normalizar la ancestry_broad='East Asian, European, Hispanic or Latin American' en PPM ID PPM000055
+⚠️ No se pudo normalizar la ancestry_broad='East Asian, European, Hispanic or Latin American' en PPM ID PPM000056
+⚠️ No se pudo normalizar la ancestry_broad='East Asian' en PPM ID PPM000057
+⚠️ No se pudo normalizar la ancestry_broad='East Asian' en PPM ID PPM000058
+⚠️ No se pudo normalizar la ancestry_broad='East Asian' en PPM ID PPM000059
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000060
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000061
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000062
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000063
+⚠️ No se pudo normalizar la ancestry_broad='African American or Afro-Caribbean' en PPM ID PPM000064
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000065
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000066
+⚠️ No se pudo normalizar la ancestry_broad='African American or Afro-Caribbean' en PPM ID PPM000067
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000068
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000069
+⚠️ No se pudo normalizar la ancestry_broad='African American or Afro-Caribbean' en PPM ID PPM000070
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000071
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000072
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000073
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000074
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000075
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000076
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000077
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000078
+⚠️ No se pudo normalizar la ancestry_broad='European, NR' en PPM ID PPM000079
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000080
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000081
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000082
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000083
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000084
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000085
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000086
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000087
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000088
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000089
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000090
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000091
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000092
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000093
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000094
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000095
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000096
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000097
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000098
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000099
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000100
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000101
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000102
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000103
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000104
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000105
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000106
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000107
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000108
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000109
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000110
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000111
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000112
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000113
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000114
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000115
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000116
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000117
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000118
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000119
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000120
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000121
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000122
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000123
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000124
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000125
+⚠️ No se pudo normalizar la ancestry_broad='East Asian' en PPM ID PPM000126
+⚠️ No se pudo normalizar la ancestry_broad='East Asian' en PPM ID PPM000127
+⚠️ No se pudo normalizar la ancestry_broad='European, NR' en PPM ID PPM000128
+⚠️ No se pudo normalizar la ancestry_broad='European, NR' en PPM ID PPM000129
+⚠️ No se pudo normalizar la ancestry_broad='European, NR' en PPM ID PPM000130
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000131
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000132
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000133
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000134
+⚠️ No se pudo normalizar la ancestry_broad='Hispanic or Latin American' en PPM ID PPM000135
+⚠️ No se pudo normalizar la ancestry_broad='Hispanic or Latin American' en PPM ID PPM000136
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000137
+⚠️ No se pudo normalizar la ancestry_broad='Hispanic or Latin American' en PPM ID PPM000138
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000139
+⚠️ No se pudo normalizar la ancestry_broad='East Asian' en PPM ID PPM000140
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000141
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000142
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000143
+⚠️ No se pudo normalizar la ancestry_broad='NR' en PPM ID PPM000144
+⚠️ No se pudo normalizar la ancestry_broad='NR' en PPM ID PPM000145
+⚠️ No se pudo normalizar la ancestry_broad='NR' en PPM ID PPM000146
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000147
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000148
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000149
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000150
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000151
+⚠️ No se pudo normalizar la ancestry_broad='East Asian' en PPM ID PPM000152
+⚠️ No se pudo normalizar la ancestry_broad='African American or Afro-Caribbean' en PPM ID PPM000153
+⚠️ No se pudo normalizar la ancestry_broad='Hispanic or Latin American' en PPM ID PPM000154
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000155
+⚠️ No se pudo normalizar la ancestry_broad='East Asian' en PPM ID PPM000156
+⚠️ No se pudo normalizar la ancestry_broad='African American or Afro-Caribbean' en PPM ID PPM000157
+⚠️ No se pudo normalizar la ancestry_broad='Hispanic or Latin American' en PPM ID PPM000158
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000159
+⚠️ No se pudo normalizar la ancestry_broad='East Asian' en PPM ID PPM000160
+⚠️ No se pudo normalizar la ancestry_broad='African American or Afro-Caribbean' en PPM ID PPM000161
+⚠️ No se pudo normalizar la ancestry_broad='Hispanic or Latin American' en PPM ID PPM000162
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000163
+⚠️ No se pudo normalizar la ancestry_broad='East Asian' en PPM ID PPM000164
+⚠️ No se pudo normalizar la ancestry_broad='African American or Afro-Caribbean' en PPM ID PPM000165
+⚠️ No se pudo normalizar la ancestry_broad='Hispanic or Latin American' en PPM ID PPM000166
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000167
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000168
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000169
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000170
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000171
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000172
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000173
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000174
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000175
+⚠️ No se pudo normalizar la ancestry_broad='Sub-Saharan African' en PPM ID PPM000176
+⚠️ No se pudo normalizar la ancestry_broad='Sub-Saharan African' en PPM ID PPM000177
+⚠️ No se pudo normalizar la ancestry_broad='Sub-Saharan African' en PPM ID PPM000178
+⚠️ No se pudo normalizar la ancestry_broad='East Asian' en PPM ID PPM000179
+⚠️ No se pudo normalizar la ancestry_broad='East Asian' en PPM ID PPM000180
+⚠️ No se pudo normalizar la ancestry_broad='East Asian' en PPM ID PPM000181
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000182
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000183
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000184
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000185
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000186
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000187
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000188
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000189
+⚠️ No se pudo normalizar la ancestry_broad='East Asian' en PPM ID PPM000190
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000191
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000192
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000193
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000194
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000195
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000196
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000197
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000198
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000199
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000200
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000201
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000202
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000203
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000204
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000206
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000207
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000208
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000209
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000210
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000211
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000212
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000213
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000214
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000215
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000216
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000217
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000218
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000219
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000220
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000221
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000222
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000223
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000224
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000225
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000226
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000227
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000228
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000229
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000230
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000231
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000232
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000233
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000234
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000235
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000236
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000237
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000238
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000239
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000240
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000241
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000242
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000243
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000244
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000245
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000246
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000247
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000248
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000249
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000250
+⚠️ No se pudo normalizar la ancestry_broad='European' en PPM ID PPM000251
+⚠️ No se pudo procesar el sample para PPM ID PPM000001
+⚠️ No se pudo procesar el sample para PPM ID PPM000002
+⚠️ No se pudo procesar el sample para PPM ID PPM000003
+⚠️ No se pudo procesar el sample para PPM ID PPM000004
+⚠️ No se pudo procesar el sample para PPM ID PPM000005
+⚠️ No se pudo procesar el sample para PPM ID PPM000006
+⚠️ No se pudo procesar el sample para PPM ID PPM000007
+⚠️ No se pudo procesar el sample para PPM ID PPM000008
+⚠️ No se pudo procesar el sample para PPM ID PPM000009
+⚠️ No se pudo procesar el sample para PPM ID PPM000010
+⚠️ No se pudo procesar el sample para PPM ID PPM000011
+⚠️ No se pudo procesar el sample para PPM ID PPM000012
+⚠️ No se pudo procesar el sample para PPM ID PPM000013
+⚠️ No se pudo procesar el sample para PPM ID PPM000014
+⚠️ No se pudo procesar el sample para PPM ID PPM000015
+⚠️ No se pudo procesar el sample para PPM ID PPM000016
+⚠️ No se pudo procesar el sample para PPM ID PPM000017
+⚠️ No se pudo procesar el sample para PPM ID PPM000018
+⚠️ No se pudo procesar el sample para PPM ID PPM000019
+⚠️ No se pudo procesar el sample para PPM ID PPM000020
+⚠️ No se pudo procesar el sample para PPM ID PPM000021
+⚠️ No se pudo procesar el sample para PPM ID PPM000022
+⚠️ No se pudo procesar el sample para PPM ID PPM000023
+⚠️ No se pudo procesar el sample para PPM ID PPM000024
+⚠️ No se pudo procesar el sample para PPM ID PPM000025
+⚠️ No se pudo procesar el sample para PPM ID PPM000026
+⚠️ No se pudo procesar el sample para PPM ID PPM000027
+⚠️ No se pudo procesar el sample para PPM ID PPM000028
+⚠️ No se pudo procesar el sample para PPM ID PPM000029
+⚠️ No se pudo procesar el sample para PPM ID PPM000001
+⚠️ No se pudo procesar el sample para PPM ID PPM000002
+⚠️ No se pudo procesar el sample para PPM ID PPM000003
+⚠️ No se pudo procesar el sample para PPM ID PPM000004
+⚠️ No se pudo procesar el sample para PPM ID PPM000005
+⚠️ No se pudo procesar el sample para PPM ID PPM000006
+⚠️ No se pudo procesar el sample para PPM ID PPM000007
+⚠️ No se pudo procesar el sample para PPM ID PPM000008
+⚠️ No se pudo procesar el sample para PPM ID PPM000009
+⚠️ No se pudo procesar el sample para PPM ID PPM000010
+⚠️ No se pudo procesar el sample para PPM ID PPM000011
+⚠️ No se pudo procesar el sample para PPM ID PPM000012
+⚠️ No se pudo procesar el sample para PPM ID PPM000013
+⚠️ No se pudo procesar el sample para PPM ID PPM000014
+⚠️ No se pudo procesar el sample para PPM ID PPM000015
+⚠️ No se pudo procesar el sample para PPM ID PPM000016
+⚠️ No se pudo procesar el sample para PPM ID PPM000017
+⚠️ No se pudo procesar el sample para PPM ID PPM000018
+⚠️ No se pudo procesar el sample para PPM ID PPM000001
+⚠️ No se pudo procesar el sample para PPM ID PPM000002
+⚠️ No se pudo procesar el sample para PPM ID PPM000003
+⚠️ No se pudo procesar el sample para PPM ID PPM000004
+⚠️ No se pudo procesar el sample para PPM ID PPM000005
+⚠️ No se pudo procesar el sample para PPM ID PPM000001
+⚠️ No se pudo procesar el sample para PPM ID PPM000006
+⚠️ No se pudo procesar el sample para PPM ID PPM000002
+⚠️ No se pudo procesar el sample para PPM ID PPM000007
+⚠️ No se pudo procesar el sample para PPM ID PPM000003
+⚠️ No se pudo procesar el sample para PPM ID PPM000008
+⚠️ No se pudo procesar el sample para PPM ID PPM000004
+⚠️ No se pudo procesar el sample para PPM ID PPM000009
+⚠️ No se pudo procesar el sample para PPM ID PPM000005
+⚠️ No se pudo procesar el sample para PPM ID PPM000010
+⚠️ No se pudo procesar el sample para PPM ID PPM000006
+⚠️ No se pudo procesar el sample para PPM ID PPM000011
+⚠️ No se pudo procesar el sample para PPM ID PPM000007
+⚠️ No se pudo procesar el sample para PPM ID PPM000012
+⚠️ No se pudo procesar el sample para PPM ID PPM000008
+⚠️ No se pudo procesar el sample para PPM ID PPM000013
+⚠️ No se pudo procesar el sample para PPM ID PPM000009
+⚠️ No se pudo procesar el sample para PPM ID PPM000014
+⚠️ No se pudo procesar el sample para PPM ID PPM000010
+⚠️ No se pudo procesar el sample para PPM ID PPM000015
+⚠️ No se pudo procesar el sample para PPM ID PPM000011
+⚠️ No se pudo procesar el sample para PPM ID PPM000016
+⚠️ No se pudo procesar el sample para PPM ID PPM000012
+⚠️ No se pudo procesar el sample para PPM ID PPM000017
+⚠️ No se pudo procesar el sample para PPM ID PPM000013
+⚠️ No se pudo procesar el sample para PPM ID PPM000018
+⚠️ No se pudo procesar el sample para PPM ID PPM000019
+⚠️ No se pudo procesar el sample para PPM ID PPM000014
+⚠️ No se pudo procesar el sample para PPM ID PPM000020
+⚠️ No se pudo procesar el sample para PPM ID PPM000015
+⚠️ No se pudo procesar el sample para PPM ID PPM000021
+⚠️ No se pudo procesar el sample para PPM ID PPM000016
+⚠️ No se pudo procesar el sample para PPM ID PPM000022
+⚠️ No se pudo procesar el sample para PPM ID PPM000017
+⚠️ No se pudo procesar el sample para PPM ID PPM000023
+⚠️ No se pudo procesar el sample para PPM ID PPM000018
+⚠️ No se pudo procesar el sample para PPM ID PPM000024
+⚠️ No se pudo procesar el sample para PPM ID PPM000019
+⚠️ No se pudo procesar el sample para PPM ID PPM000025
+⚠️ No se pudo procesar el sample para PPM ID PPM000020
+⚠️ No se pudo procesar el sample para PPM ID PPM000026
+⚠️ No se pudo procesar el sample para PPM ID PPM000021
+⚠️ No se pudo procesar el sample para PPM ID PPM000027
+⚠️ No se pudo procesar el sample para PPM ID PPM000022
+❌ Error al insertar ModelEvaluation PPM ID PPM000001: PrismaClientValidationError: 
+Invalid `__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$utils$2f$prisma$2e$ts__$5b$api$5d$__$28$ecmascript$29$__["prisma"].modelEvaluation.create()` invocation in
+/Users/renenoellopez/dev/prs_etl/.next/server/chunks/[root of the server]__245ddc2f._.js:520:156
+
+  517     }
+  518 });
+  519 if (!publication) throw new Error(`❌ Publication no encontrada: ${pgpId}`);
+→ 520 return await __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$utils$2f$prisma$2e$ts__$5b$api$5d$__$28$ecmascript$29$__["prisma"].modelEvaluation.create({
+        data: {
+          ppmId: "PPM000001",
+          reportedTrait: "All breast cancer",
+          covariates: null,
+          prsModel: {
+            connect: {
+              id: 3386
+            }
+          },
+          publication: {
+            connect: {
+              id: 1
+            }
+          },
+      +   evaluationPopulationSample: {
+      +     create: EvaluationPopulationSampleCreateWithoutModelEvaluationsInput | EvaluationPopulationSampleUncheckedCreateWithoutModelEvaluationsInput,
+      +     connectOrCreate: EvaluationPopulationSampleCreateOrConnectWithoutModelEvaluationsInput,
+      +     connect: EvaluationPopulationSampleWhereUniqueInput
+      +   }
+        }
+      })
+
+Argument `evaluationPopulationSample` is missing.
+❌ Error al insertar ModelEvaluation PPM ID PPM000001: PrismaClientValidationError: 
+Invalid `__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$utils$2f$prisma$2e$ts__$5b$api$5d$__$28$ecmascript$29$__["prisma"].modelEvaluation.create()` invocation in
+/Users/renenoellopez/dev/prs_etl/.next/server/chunks/[root of the server]__245ddc2f._.js:520:156
+
+  517     }
+  518 });
+  519 if (!publication) throw new Error(`❌ Publication no encontrada: ${pgpId}`);
+→ 520 return await __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$utils$2f$prisma$2e$ts__$5b$api$5d$__$28$ecmascript$29$__["prisma"].modelEvaluation.create({
+        data: {
+          ppmId: "PPM000001",
+          reportedTrait: "All breast cancer",
+          covariates: null,
+          prsModel: {
+            connect: {
+              id: 3386
+            }
+          },
+          publication: {
+            connect: {
+              id: 1
+            }
+          },
+      +   evaluationPopulationSample: {
+      +     create: EvaluationPopulationSampleCreateWithoutModelEvaluationsInput | EvaluationPopulationSampleUncheckedCreateWithoutModelEvaluationsInput,
+      +     connectOrCreate: EvaluationPopulationSampleCreateOrConnectWithoutModelEvaluationsInput,
+      +     connect: EvaluationPopulationSampleWhereUniqueInput
+      +   }
+        }
+      })
+
+Argument `evaluationPopulationSample` is missing.
+❌ Error al insertar ModelEvaluation PPM ID PPM000002: PrismaClientValidationError: 
+Invalid `__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$utils$2f$prisma$2e$ts__$5b$api$5d$__$28$ecmascript$29$__["prisma"].modelEvaluation.create()` invocation in
+/Users/renenoellopez/dev/prs_etl/.next/server/chunks/[root of the server]__245ddc2f._.js:520:156
+
+  517     }
+  518 });
+  519 if (!publication) throw new Error(`❌ Publication no encontrada: ${pgpId}`);
+→ 520 return await __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$utils$2f$prisma$2e$ts__$5b$api$5d$__$28$ecmascript$29$__["prisma"].modelEvaluation.create({
+        data: {
+          ppmId: "PPM000002",
+          reportedTrait: "ER-positive breast cancer",
+          covariates: null,
+          prsModel: {
+            connect: {
+              id: 3387
+            }
+          },
+          publication: {
+            connect: {
+              id: 1
+            }
+          },
+      +   evaluationPopulationSample: {
+      +     create: EvaluationPopulationSampleCreateWithoutModelEvaluationsInput | EvaluationPopulationSampleUncheckedCreateWithoutModelEvaluationsInput,
+      +     connectOrCreate: EvaluationPopulationSampleCreateOrConnectWithoutModelEvaluationsInput,
+      +     connect: EvaluationPopulationSampleWhereUniqueInput
+      +   }
+        }
+      })
+
+Argument `evaluationPopulationSample` is missing.
+❌ Error al insertar ModelEvaluation PPM ID PPM000002: PrismaClientValidationError: 
+Invalid `__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$utils$2f$prisma$2e$ts__$5b$api$5d$__$28$ecmascript$29$__["prisma"].modelEvaluation.create()` invocation in
+/Users/renenoellopez/dev/prs_etl/.next/server/chunks/[root of the server]__245ddc2f._.js:520:156
+
+  517     }
+  518 });
+  519 if (!publication) throw new Error(`❌ Publication no encontrada: ${pgpId}`);
+→ 520 return await __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$utils$2f$prisma$2e$ts__$5b$api$5d$__$28$ecmascript$29$__["prisma"].modelEvaluation.create({
+        data: {
+          ppmId: "PPM000002",
+          reportedTrait: "ER-positive breast cancer",
+          covariates: null,
+          prsModel: {
+            connect: {
+              id: 3387
+            }
+          },
+          publication: {
+            connect: {
+              id: 1
+            }
+          },
+      +   evaluationPopulationSample: {
+      +     create: EvaluationPopulationSampleCreateWithoutModelEvaluationsInput | EvaluationPopulationSampleUncheckedCreateWithoutModelEvaluationsInput,
+      +     connectOrCreate: EvaluationPopulationSampleCreateOrConnectWithoutModelEvaluationsInput,
+      +     connect: EvaluationPopulationSampleWhereUniqueInput
+      +   }
+        }
+      })
+
+Argument `evaluationPopulationSample` is missing.
+❌ Error al insertar ModelEvaluation PPM ID PPM000001: PrismaClientValidationError: 
+Invalid `__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$utils$2f$prisma$2e$ts__$5b$api$5d$__$28$ecmascript$29$__["prisma"].modelEvaluation.create()` invocation in
+/Users/renenoellopez/dev/prs_etl/.next/server/chunks/[root of the server]__245ddc2f._.js:521:156
+
+  518     }
+  519 });
+  520 if (!publication) throw new Error(`❌ Publication no encontrada: ${pgpId}`);
+→ 521 return await __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$utils$2f$prisma$2e$ts__$5b$api$5d$__$28$ecmascript$29$__["prisma"].modelEvaluation.create({
+        data: {
+          ppmId: "PPM000001",
+          reportedTrait: "All breast cancer",
+          covariates: null,
+          prsModel: {
+            connect: {
+              id: 3386
+            }
+          },
+          publication: {
+            connect: {
+              id: 1
+            }
+          },
+          evaluationPopulationSample: {
+            connect: {
+              id: undefined,
+      ?       AND?: EvaluationPopulationSampleWhereInput | EvaluationPopulationSampleWhereInput[],
+      ?       OR?: EvaluationPopulationSampleWhereInput[],
+      ?       NOT?: EvaluationPopulationSampleWhereInput | EvaluationPopulationSampleWhereInput[],
+      ?       numberOfIndividuals?: IntFilter | Int,
+      ?       numberOfCases?: IntNullableFilter | Int | Null,
+      ?       numberOfControls?: IntNullableFilter | Int | Null,
+      ?       percentMale?: FloatNullableFilter | Float | Null,
+      ?       age?: FloatNullableFilter | Float | Null,
+      ?       ageUnits?: StringNullableFilter | String | Null,
+      ?       ancestryBroad?: StringFilter | String,
+      ?       ancestryDetails?: StringNullableFilter | String | Null,
+      ?       cohort?: StringFilter | String,
+      ?       gcId?: StringNullableFilter | String | Null,
+      ?       sourcePMID?: StringNullableFilter | String | Null,
+      ?       sourceDOI?: StringNullableFilter | String | Null,
+      ?       phenotypeFree?: StringFilter | String,
+      ?       pssId?: StringNullableFilter | String | Null,
+      ?       broadAncestryId?: IntFilter | Int,
+      ?       broadAncestryCategory?: BroadAncestryCategoryScalarRelationFilter | BroadAncestryCategoryWhereInput,
+      ?       modelEvaluations?: ModelEvaluationListRelationFilter
+            }
+          }
+        }
+      })
+
+Argument `connect` of type EvaluationPopulationSampleWhereUniqueInput needs at least one of `id` arguments. Available options are marked with ?.
+❌ Error al insertar ModelEvaluation PPM ID PPM000002: PrismaClientValidationError: 
+Invalid `__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$utils$2f$prisma$2e$ts__$5b$api$5d$__$28$ecmascript$29$__["prisma"].modelEvaluation.create()` invocation in
+/Users/renenoellopez/dev/prs_etl/.next/server/chunks/[root of the server]__245ddc2f._.js:521:156
+
+  518     }
+  519 });
+  520 if (!publication) throw new Error(`❌ Publication no encontrada: ${pgpId}`);
+→ 521 return await __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$utils$2f$prisma$2e$ts__$5b$api$5d$__$28$ecmascript$29$__["prisma"].modelEvaluation.create({
+        data: {
+          ppmId: "PPM000002",
+          reportedTrait: "ER-positive breast cancer",
+          covariates: null,
+          prsModel: {
+            connect: {
+              id: 3387
+            }
+          },
+          publication: {
+            connect: {
+              id: 1
+            }
+          },
+          evaluationPopulationSample: {
+            connect: {
+              id: undefined,
+      ?       AND?: EvaluationPopulationSampleWhereInput | EvaluationPopulationSampleWhereInput[],
+      ?       OR?: EvaluationPopulationSampleWhereInput[],
+      ?       NOT?: EvaluationPopulationSampleWhereInput | EvaluationPopulationSampleWhereInput[],
+      ?       numberOfIndividuals?: IntFilter | Int,
+      ?       numberOfCases?: IntNullableFilter | Int | Null,
+      ?       numberOfControls?: IntNullableFilter | Int | Null,
+      ?       percentMale?: FloatNullableFilter | Float | Null,
+      ?       age?: FloatNullableFilter | Float | Null,
+      ?       ageUnits?: StringNullableFilter | String | Null,
+      ?       ancestryBroad?: StringFilter | String,
+      ?       ancestryDetails?: StringNullableFilter | String | Null,
+      ?       cohort?: StringFilter | String,
+      ?       gcId?: StringNullableFilter | String | Null,
+      ?       sourcePMID?: StringNullableFilter | String | Null,
+      ?       sourceDOI?: StringNullableFilter | String | Null,
+      ?       phenotypeFree?: StringFilter | String,
+      ?       pssId?: StringNullableFilter | String | Null,
+      ?       broadAncestryId?: IntFilter | Int,
+      ?       broadAncestryCategory?: BroadAncestryCategoryScalarRelationFilter | BroadAncestryCategoryWhereInput,
+      ?       modelEvaluations?: ModelEvaluationListRelationFilter
+            }
+          }
+        }
+      })
+
+Argument `connect` of type EvaluationPopulationSampleWhereUniqueInput needs at least one of `id` arguments. Available options are marked with ?.
+❌ Error al insertar ModelEvaluation PPM ID PPM000003: PrismaClientValidationError: 
+Invalid `__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$utils$2f$prisma$2e$ts__$5b$api$5d$__$28$ecmascript$29$__["prisma"].modelEvaluation.create()` invocation in
+/Users/renenoellopez/dev/prs_etl/.next/server/chunks/[root of the server]__245ddc2f._.js:521:156
+
+  518     }
+  519 });
+  520 if (!publication) throw new Error(`❌ Publication no encontrada: ${pgpId}`);
+→ 521 return await __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$utils$2f$prisma$2e$ts__$5b$api$5d$__$28$ecmascript$29$__["prisma"].modelEvaluation.create({
+        data: {
+          ppmId: "PPM000003",
+          reportedTrait: "ER-negative breast cancer",
+          covariates: null,
+          prsModel: {
+            connect: {
+              id: 3388
+            }
+          },
+          publication: {
+            connect: {
+              id: 1
+            }
+          },
+          evaluationPopulationSample: {
+            connect: {
+              id: undefined,
+      ?       AND?: EvaluationPopulationSampleWhereInput | EvaluationPopulationSampleWhereInput[],
+      ?       OR?: EvaluationPopulationSampleWhereInput[],
+      ?       NOT?: EvaluationPopulationSampleWhereInput | EvaluationPopulationSampleWhereInput[],
+      ?       numberOfIndividuals?: IntFilter | Int,
+      ?       numberOfCases?: IntNullableFilter | Int | Null,
+      ?       numberOfControls?: IntNullableFilter | Int | Null,
+      ?       percentMale?: FloatNullableFilter | Float | Null,
+      ?       age?: FloatNullableFilter | Float | Null,
+      ?       ageUnits?: StringNullableFilter | String | Null,
+      ?       ancestryBroad?: StringFilter | String,
+      ?       ancestryDetails?: StringNullableFilter | String | Null,
+      ?       cohort?: StringFilter | String,
+      ?       gcId?: StringNullableFilter | String | Null,
+      ?       sourcePMID?: StringNullableFilter | String | Null,
+      ?       sourceDOI?: StringNullableFilter | String | Null,
+      ?       phenotypeFree?: StringFilter | String,
+      ?       pssId?: StringNullableFilter | String | Null,
+      ?       broadAncestryId?: IntFilter | Int,
+      ?       broadAncestryCategory?: BroadAncestryCategoryScalarRelationFilter | BroadAncestryCategoryWhereInput,
+      ?       modelEvaluations?: ModelEvaluationListRelationFilter
+            }
+          }
+        }
+      })
+
+Argument `connect` of type EvaluationPopulationSampleWhereUniqueInput needs at least one of `id` arguments. Available options are marked with ?.
+✅ ModelEvaluation insertado: PPM000001
+✅ ModelEvaluation insertado: PPM000002
+✅ ModelEvaluation insertado: PPM000003
+✅ ModelEvaluation insertado: PPM000004
+✅ ModelEvaluation insertado: PPM000005
+✅ ModelEvaluation insertado: PPM000006
+✅ ModelEvaluation insertado: PPM000007
+✅ ModelEvaluation insertado: PPM000008
+✅ ModelEvaluation insertado: PPM000009
+✅ ModelEvaluation insertado: PPM000010
+✅ ModelEvaluation insertado: PPM000011
+✅ ModelEvaluation insertado: PPM000012
+✅ ModelEvaluation insertado: PPM000013
+✅ ModelEvaluation insertado: PPM000014
+✅ ModelEvaluation insertado: PPM000015
+✅ ModelEvaluation insertado: PPM000016
+✅ ModelEvaluation insertado: PPM000017
+❌ Error al insertar ModelEvaluation PPM ID PPM000018: PrismaClientKnownRequestError: 
+Invalid `__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$utils$2f$prisma$2e$ts__$5b$api$5d$__$28$ecmascript$29$__["prisma"].evaluationPopulationSample.create()` invocation in
+/Users/renenoellopez/dev/prs_etl/.next/server/chunks/[root of the server]__245ddc2f._.js:558:167
+
+  555 });
+  556 if (existing) return existing;
+  557 // Crear nuevo sample
+→ 558 return await __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$utils$2f$prisma$2e$ts__$5b$api$5d$__$28$ecmascript$29$__["prisma"].evaluationPopulationSample.create(
+The provided value for the column is too long for the column's type. Column: phenotypeFree
+❌ Error al insertar ModelEvaluation PPM ID PPM000019: PrismaClientKnownRequestError: 
+Invalid `__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$utils$2f$prisma$2e$ts__$5b$api$5d$__$28$ecmascript$29$__["prisma"].evaluationPopulationSample.create()` invocation in
+/Users/renenoellopez/dev/prs_etl/.next/server/chunks/[root of the server]__245ddc2f._.js:558:167
+
+  555 });
+  556 if (existing) return existing;
+  557 // Crear nuevo sample
+→ 558 return await __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$utils$2f$prisma$2e$ts__$5b$api$5d$__$28$ecmascript$29$__["prisma"].evaluationPopulationSample.create(
+The provided value for the column is too long for the column's type. Column: phenotypeFree
+❌ Error al insertar ModelEvaluation PPM ID PPM000020: PrismaClientKnownRequestError: 
+Invalid `__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$utils$2f$prisma$2e$ts__$5b$api$5d$__$28$ecmascript$29$__["prisma"].evaluationPopulationSample.create()` invocation in
+/Users/renenoellopez/dev/prs_etl/.next/server/chunks/[root of the server]__245ddc2f._.js:558:167
+
+  555 });
+  556 if (existing) return existing;
+  557 // Crear nuevo sample
+→ 558 return await __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$utils$2f$prisma$2e$ts__$5b$api$5d$__$28$ecmascript$29$__["prisma"].evaluationPopulationSample.create(
+The provided value for the column is too long for the column's type. Column: phenotypeFree
+❌ Error al insertar ModelEvaluation PPM ID PPM000021: PrismaClientKnownRequestError: 
+Invalid `__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$utils$2f$prisma$2e$ts__$5b$api$5d$__$28$ecmascript$29$__["prisma"].evaluationPopulationSample.create()` invocation in
+/Users/renenoellopez/dev/prs_etl/.next/server/chunks/[root of the server]__245ddc2f._.js:558:167
+
+  555 });
+  556 if (existing) return existing;
+  557 // Crear nuevo sample
+→ 558 return await __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$utils$2f$prisma$2e$ts__$5b$api$5d$__$28$ecmascript$29$__["prisma"].evaluationPopulationSample.create(
+The provided value for the column is too long for the column's type. Column: phenotypeFree
+❌ Error al insertar ModelEvaluation PPM ID PPM000022: PrismaClientKnownRequestError: 
+Invalid `__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$utils$2f$prisma$2e$ts__$5b$api$5d$__$28$ecmascript$29$__["prisma"].evaluationPopulationSample.create()` invocation in
+/Users/renenoellopez/dev/prs_etl/.next/server/chunks/[root of the server]__245ddc2f._.js:558:167
+
+  555 });
+  556 if (existing) return existing;
+  557 // Crear nuevo sample
+→ 558 return await __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$utils$2f$prisma$2e$ts__$5b$api$5d$__$28$ecmascript$29$__["prisma"].evaluationPopulationSample.create(
+The provided value for the column is too long for the column's type. Column: phenotypeFree
+✅ ModelEvaluation insertado: PPM000023
+❌ Error al insertar ModelEvaluation PPM ID PPM000024: PrismaClientKnownRequestError: 
+Invalid `__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$utils$2f$prisma$2e$ts__$5b$api$5d$__$28$ecmascript$29$__["prisma"].evaluationPopulationSample.create()` invocation in
+/Users/renenoellopez/dev/prs_etl/.next/server/chunks/[root of the server]__245ddc2f._.js:558:167
+
+  555 });
+  556 if (existing) return existing;
+  557 // Crear nuevo sample
+→ 558 return await __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$utils$2f$prisma$2e$ts__$5b$api$5d$__$28$ecmascript$29$__["prisma"].evaluationPopulationSample.create(
+The provided value for the column is too long for the column's type. Column: phenotypeFree
+❌ Error al insertar ModelEvaluation PPM ID PPM000025: PrismaClientKnownRequestError: 
+Invalid `__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$utils$2f$prisma$2e$ts__$5b$api$5d$__$28$ecmascript$29$__["prisma"].evaluationPopulationSample.create()` invocation in
+/Users/renenoellopez/dev/prs_etl/.next/server/chunks/[root of the server]__245ddc2f._.js:558:167
+
+  555 });
+  556 if (existing) return existing;
+  557 // Crear nuevo sample
+→ 558 return await __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$utils$2f$prisma$2e$ts__$5b$api$5d$__$28$ecmascript$29$__["prisma"].evaluationPopulationSample.create(
+The provided value for the column is too long for the column's type. Column: phenotypeFree
+✅ ModelEvaluation insertado: PPM000026
+❌ Error al insertar ModelEvaluation PPM ID PPM000027: PrismaClientKnownRequestError: 
+Invalid `__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$utils$2f$prisma$2e$ts__$5b$api$5d$__$28$ecmascript$29$__["prisma"].evaluationPopulationSample.create()` invocation in
+/Users/renenoellopez/dev/prs_etl/.next/server/chunks/[root of the server]__245ddc2f._.js:558:167
+
+  555 });
+  556 if (existing) return existing;
+  557 // Crear nuevo sample
+→ 558 return await __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$utils$2f$prisma$2e$ts__$5b$api$5d$__$28$ecmascript$29$__["prisma"].evaluationPopulationSample.create(
+The provided value for the column is too long for the column's type. Column: phenotypeFree
+✅ ModelEvaluation insertado: PPM000001
+✅ ModelEvaluation insertado: PPM000002
+✅ ModelEvaluation insertado: PPM000003
+✅ ModelEvaluation insertado: PPM000004
+✅ ModelEvaluation insertado: PPM000005
+✅ ModelEvaluation insertado: PPM000006
+✅ ModelEvaluation insertado: PPM000007
+✅ ModelEvaluation insertado: PPM000008
+✅ ModelEvaluation insertado: PPM000009
+✅ ModelEvaluation insertado: PPM000010
+✅ ModelEvaluation insertado: PPM000011
+✅ ModelEvaluation insertado: PPM000012
+✅ ModelEvaluation insertado: PPM000013
+✅ ModelEvaluation insertado: PPM000014
+✅ ModelEvaluation insertado: PPM000015
+✅ ModelEvaluation insertado: PPM000016
+✅ ModelEvaluation insertado: PPM000017
+✅ ModelEvaluation insertado: PPM000018
+✅ ModelEvaluation insertado: PPM000019
+✅ ModelEvaluation insertado: PPM000020
+✅ ModelEvaluation insertado: PPM000021
+✅ ModelEvaluation insertado: PPM000022
+✅ ModelEvaluation insertado: PPM000023
+✅ ModelEvaluation insertado: PPM000024
+✅ ModelEvaluation insertado: PPM000025
+✅ ModelEvaluation insertado: PPM000026
+✅ ModelEvaluation insertado: PPM000027
+✅ ModelEvaluation insertado: PPM000028
+✅ ModelEvaluation insertado: PPM000029
+✅ ModelEvaluation insertado: PPM000030
+✅ ModelEvaluation insertado: PPM000031
+✅ ModelEvaluation insertado: PPM000032
+✅ ModelEvaluation insertado: PPM000033
+✅ ModelEvaluation insertado: PPM000034
+✅ ModelEvaluation insertado: PPM000035
+✅ ModelEvaluation insertado: PPM000036
+✅ ModelEvaluation insertado: PPM000037
+✅ ModelEvaluation insertado: PPM000038
+✅ ModelEvaluation insertado: PPM000039
+✅ ModelEvaluation insertado: PPM000040
+✅ ModelEvaluation insertado: PPM000041
+✅ ModelEvaluation insertado: PPM000042
+✅ ModelEvaluation insertado: PPM000043

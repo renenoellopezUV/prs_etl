@@ -88,3 +88,7 @@ export const BROAD_ANCESTRY_MAPPING: Record<string, string> = {
       .trim()
   }
   
+export function getBroadAncestryLabelFromRaw(raw: any): string | null {
+  const normalized = raw?.samples?.[0]?.ancestry_broad ?? null
+  return BROAD_ANCESTRY_MAPPING[normalized] ?? null
+}

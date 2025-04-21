@@ -1,9 +1,9 @@
 import path from 'path'
-import { fetchAllTraits, fetchAllPRSModelsIncremental, fetchAllPublicationsIncremental, fetchAllTraitCategories, fetchBroadAncestryCategories } from './externalApi'
-import { transformAllTraits, transformPRSModel, transformPublication, transformAllTraitCategories, extractPRSModelTraitRelations, extractDevelopmentPopulationSamples, transformBroadAncestryCategories } from './transformer'
-import { insertTrait, insertPRSModel, insertPublication, insertTraitCategoryWithRelations, connectPRSModelWithTrait, insertDevelopmentPopulationSample, insertBroadAncestryCategory, getBroadAncestryCategoryIdByLabel } from '../repositories/insertData'
+import { fetchAllModelEvaluationsIncremental, fetchAllTraits, fetchAllPRSModelsIncremental, fetchAllPublicationsIncremental, fetchAllTraitCategories, fetchBroadAncestryCategories } from './externalApi'
+import { transformEvaluationSample, transformModelEvaluation, transformAllTraits, transformPRSModel, transformPublication, transformAllTraitCategories, extractPRSModelTraitRelations, extractDevelopmentPopulationSamples, transformBroadAncestryCategories } from './transformer'
+import { findOrCreateEvaluationSample, insertModelEvaluation, insertTrait, insertPRSModel, insertPublication, insertTraitCategoryWithRelations, connectPRSModelWithTrait, insertDevelopmentPopulationSample, insertBroadAncestryCategory, getBroadAncestryCategoryIdByLabel } from '../repositories/insertData'
 import { log } from '../../utils/logging'
-import { BROAD_ANCESTRY_MAPPING, normalizeAncestryBroad } from '../../utils/broadAncestryMapping'
+import { getBroadAncestryLabelFromRaw, BROAD_ANCESTRY_MAPPING } from '../../utils/broadAncestryMapping'
 
 
 export async function runTraitETL() {
@@ -172,4 +172,71 @@ export async function runBroadAncestryCategoryETL() {
       log(logPath, errorMsg)
     }
   }
+}
+
+export async function runModelEvaluationETL() {
+  const logPath = path.join(process.cwd(), 'data', 'modelEvaluation_log.txt')
+
+  await fetchAllModelEvaluationsIncremental(async (batch) => {
+    for (const raw of batch) {
+      try {
+        // Transformar primero
+        const evaluationSampleData = transformEvaluationSample(raw)
+        //const broadLabel = getBroadAncestryLabelFromRaw(evaluationSampleData.ancestryBroad)
+        const normalized =evaluationSampleData.ancestryBroad
+        const ancestryGroup = BROAD_ANCESTRY_MAPPING[normalized] ?? null
+
+        if (!ancestryGroup) {
+          const warnMsg = `⚠️ No se pudo normalizar la ancestry_broad='${evaluationSampleData.ancestryBroad}' en PPM ID ${raw.id}`
+          console.warn(warnMsg)
+          log(logPath, warnMsg)
+          continue
+        }
+
+        const broadAncestryId = await getBroadAncestryCategoryIdByLabel(ancestryGroup)
+
+        if (!broadAncestryId) {
+          const warnMsg = `⚠️ No se encontró BroadAncestry para ancestry_broad='${evaluationSampleData.ancestryBroad}' (normalizado: '${broadLabel}') en PPM ID ${raw.id}`
+          console.warn(warnMsg)
+          log(logPath, warnMsg)
+          continue
+        }
+
+        // Crear o reutilizar Evaluation Sample
+        const evaluationSample = await findOrCreateEvaluationSample({
+          ...evaluationSampleData,
+          broadAncestryId
+        })
+
+        if (!evaluationSample) {
+          const msg = `⚠️ No se pudo procesar el sample para PPM ID ${raw.id}`
+          console.warn(msg)
+          log(logPath, msg)
+          continue
+        }
+
+        if (!evaluationSample?.id) {
+          const msg = `⚠️ EvaluationSample retornado sin ID para PPM ID ${raw.id}`
+          console.warn(msg)
+          log(logPath, msg)
+          continue
+        }
+
+        // Crear ModelEvaluation asociado
+        const transformed = transformModelEvaluation(raw)
+        const inserted = await insertModelEvaluation({
+          ...transformed,
+          evaluationPopulationSampleId: evaluationSample.id,
+        })
+
+        const msg = `✅ ModelEvaluation insertado: ${inserted.ppmId}`
+        console.log(msg)
+        log(logPath, msg)
+      } catch (error) {
+        const errMsg = `❌ Error al insertar ModelEvaluation PPM ID ${raw.id}: ${error}`
+        console.error(errMsg)
+        log(logPath, errMsg)
+      }
+    }
+  })
 }

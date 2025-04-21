@@ -136,3 +136,22 @@ export async function fetchBroadAncestryCategories(): Promise<Record<string, any
   console.log(`✔️ Broad Ancestry Categories obtenidas: ${Object.keys(data).length}`)
   return data
 }
+
+
+export async function fetchAllModelEvaluationsIncremental(onBatch: (batch: any[]) => Promise<void>) {
+  let nextUrl: string | null = `${BASE_URL}/performance/all`
+
+  while (nextUrl) {
+    const res: Response = await fetch(nextUrl)
+
+    if (!res.ok) {
+      throw new Error(`Error al obtener model evaluations: ${res.statusText}`)
+    }
+
+    const data: any = await res.json()
+    console.log(`📦 Página recibida: ${data.results.length} evaluations`)
+
+    await onBatch(data.results)
+    nextUrl = data.next
+  }
+}

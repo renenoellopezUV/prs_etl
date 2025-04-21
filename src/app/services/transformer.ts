@@ -155,3 +155,44 @@ export function transformBroadAncestryCategories(rawData: Record<string, any>) {
     label: value.display_category
   }))
 }
+
+
+
+export function transformModelEvaluation(raw: any) {
+  return {
+    ppmId: raw.id,
+    reportedTrait: raw.phenotyping_reported,
+    covariates: raw.covariates ?? null,
+    pgscId: raw.associated_pgs_id,
+    pgpId: raw.publication?.id ?? null,
+  }
+}
+
+export function transformEvaluationSample(raw: any): any {
+  const sample = raw.sampleset?.samples?.[0]
+
+  if (!sample) {
+    throw new Error(`❌ Sample vacío o no definido en sampleset del PPM ID ${raw.id}`)
+  }
+
+  const cohorts = (sample?.cohorts || []).map(
+    (c: any) => `${c.name_full} (${c.name_short})`
+  ).join(', ')
+
+  return {
+    numberOfIndividuals: sample.sample_number ?? null,
+    numberOfCases: sample.sample_cases ?? null,
+    numberOfControls: sample.n_controls ?? null,
+    percentMale: sample.sample_percent_male ?? null,
+    age: sample.sample_age ?? null,
+    ageUnits: null,
+    ancestryBroad: sample.ancestry_broad ?? null,
+    ancestryDetails: sample.ancestry_free ?? null,
+    cohort: cohorts,
+    gcId: sample.source_GWAS_catalog ?? null,
+    sourcePMID: sample.source_PMID?.toString() ?? null,
+    sourceDOI: sample.source_DOI ?? null,
+    phenotypeFree: sample.phenotyping_free ?? null,
+    pssId: raw.sampleset?.id ?? null,
+  }
+}

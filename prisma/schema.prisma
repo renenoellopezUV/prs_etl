@@ -129,19 +129,19 @@ model PerformanceMetric {
 model EvaluationPopulationSample {
   id                    Int                   @id @default(autoincrement())
   numberOfIndividuals   Int
-  numberOfCases         Int
-  numberOfControls      Int
-  percentMale           Float
-  age                   Float
-  ageUnits              String
+  numberOfCases         Int?
+  numberOfControls      Int?
+  percentMale           Float?
+  age                   Float?
+  ageUnits              String?
   ancestryBroad         String
-  ancestryDetails       String
-  cohort                String
+  ancestryDetails       String? @db.Text
+  cohort                String @db.Text
   gcId                  String?
   sourcePMID            String?
   sourceDOI             String?
-  phenotypeFree         String
-  pssId                 String?
+  phenotypeFree         String? @db.Text
+  pssId                 String @unique
   broadAncestryId       Int
   broadAncestryCategory BroadAncestryCategory @relation(fields: [broadAncestryId], references: [id])
   modelEvaluations      ModelEvaluation[]
