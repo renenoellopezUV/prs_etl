@@ -1,7 +1,4 @@
 import { prisma } from '@/utils/prisma'
-import { log } from '../../utils/logging'
-import { BROAD_ANCESTRY_MAPPING } from '../../utils/broadAncestryMapping'
-
 
 type TraitInput = {
   label: string
@@ -259,6 +256,53 @@ export async function findOrCreateEvaluationSample(data: any) {
       pssId,
       broadAncestryCategory: {
         connect: { id: broadAncestryId }
+      }
+    }
+  })
+}
+
+
+export async function findOrCreatePerformanceMetric(data: {
+  nameShort: string
+  nameLong: string
+  type: 'RISK_ASSOCIATION' | 'DISCRIMINATING_POWER' | 'OTHER'
+}) {
+  const existing = await prisma.performanceMetric.findFirst({
+    where: {
+      nameShort: data.nameShort,
+      type: data.type
+    }
+  })
+
+  if (existing) return existing
+
+  return await prisma.performanceMetric.create({
+    data: {
+      nameShort: data.nameShort,
+      nameLong: data.nameLong,
+      type: data.type
+    }
+  })
+}
+
+
+export async function insertPerformanceMetricEvaluation(data: {
+  modelEvaluationId: number,
+  performanceMetricId: number,
+  estimate: number,
+  ciLower: number | null,
+  ciUpper: number | null
+}) {
+  return await prisma.performanceMetricEvaluation.create({
+    data: {
+      estimate: data.estimate,
+      CILower: data.ciLower,
+      CIUpper: data.ciUpper,
+      modelEvaluation: {
+        connect: { id: data.modelEvaluationId }
+      },
+      performanceMetric: {
+        connect: { id: data.performanceMetricId }
       }
     }
   })

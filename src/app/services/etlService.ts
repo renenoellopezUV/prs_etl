@@ -1,7 +1,7 @@
 import path from 'path'
 import { fetchAllModelEvaluationsIncremental, fetchAllTraits, fetchAllPRSModelsIncremental, fetchAllPublicationsIncremental, fetchAllTraitCategories, fetchBroadAncestryCategories } from './externalApi'
 import { transformEvaluationSample, transformModelEvaluation, transformAllTraits, transformPRSModel, transformPublication, transformAllTraitCategories, extractPRSModelTraitRelations, extractDevelopmentPopulationSamples, transformBroadAncestryCategories } from './transformer'
-import { findOrCreateEvaluationSample, insertModelEvaluation, insertTrait, insertPRSModel, insertPublication, insertTraitCategoryWithRelations, connectPRSModelWithTrait, insertDevelopmentPopulationSample, insertBroadAncestryCategory, getBroadAncestryCategoryIdByLabel } from '../repositories/insertData'
+import { insertPerformanceMetricEvaluation, findOrCreatePerformanceMetric, findOrCreateEvaluationSample, insertModelEvaluation, insertTrait, insertPRSModel, insertPublication, insertTraitCategoryWithRelations, connectPRSModelWithTrait, insertDevelopmentPopulationSample, insertBroadAncestryCategory, getBroadAncestryCategoryIdByLabel } from '../repositories/insertData'
 import { log } from '../../utils/logging'
 import { getBroadAncestryLabelFromRaw, BROAD_ANCESTRY_MAPPING } from '../../utils/broadAncestryMapping'
 
@@ -180,14 +180,14 @@ export async function runModelEvaluationETL() {
   await fetchAllModelEvaluationsIncremental(async (batch) => {
     for (const raw of batch) {
       try {
-        // Transformar primero
+        // Transformar EvaluationSample
         const evaluationSampleData = transformEvaluationSample(raw)
-        //const broadLabel = getBroadAncestryLabelFromRaw(evaluationSampleData.ancestryBroad)
-        const normalized =evaluationSampleData.ancestryBroad
+
+        const normalized = evaluationSampleData.ancestryBroad
         const ancestryGroup = BROAD_ANCESTRY_MAPPING[normalized] ?? null
 
         if (!ancestryGroup) {
-          const warnMsg = `⚠️ No se pudo normalizar la ancestry_broad='${evaluationSampleData.ancestryBroad}' en PPM ID ${raw.id}`
+          const warnMsg = `⚠️ Ancestría no mapeada para: ${normalized} (PPM ID ${raw.id})`
           console.warn(warnMsg)
           log(logPath, warnMsg)
           continue
@@ -196,7 +196,7 @@ export async function runModelEvaluationETL() {
         const broadAncestryId = await getBroadAncestryCategoryIdByLabel(ancestryGroup)
 
         if (!broadAncestryId) {
-          const warnMsg = `⚠️ No se encontró BroadAncestry para ancestry_broad='${evaluationSampleData.ancestryBroad}' (normalizado: '${broadLabel}') en PPM ID ${raw.id}`
+          const warnMsg = `⚠️ No se encontró BroadAncestry para ancestry_broad='${evaluationSampleData.ancestryBroad}' (normalizado: '${ancestryGroup}') en PPM ID ${raw.id}`
           console.warn(warnMsg)
           log(logPath, warnMsg)
           continue
@@ -215,13 +215,6 @@ export async function runModelEvaluationETL() {
           continue
         }
 
-        if (!evaluationSample?.id) {
-          const msg = `⚠️ EvaluationSample retornado sin ID para PPM ID ${raw.id}`
-          console.warn(msg)
-          log(logPath, msg)
-          continue
-        }
-
         // Crear ModelEvaluation asociado
         const transformed = transformModelEvaluation(raw)
         const inserted = await insertModelEvaluation({
@@ -232,6 +225,35 @@ export async function runModelEvaluationETL() {
         const msg = `✅ ModelEvaluation insertado: ${inserted.ppmId}`
         console.log(msg)
         log(logPath, msg)
+
+        // Procesar métricas de performance
+        const allMetrics = [
+          ...(raw.performance_metrics?.effect_sizes || []).map((m: any) => ({ ...m, type: 'RISK_ASSOCIATION' })),
+          ...(raw.performance_metrics?.class_acc || []).map((m: any) => ({ ...m, type: 'DISCRIMINATING_POWER' })),
+          ...(raw.performance_metrics?.othermetrics || []).map((m: any) => ({ ...m, type: 'OTHER' }))
+        ]
+
+        for (const metric of allMetrics) {
+          try {
+            const performanceMetric = await findOrCreatePerformanceMetric({
+              nameShort: metric.name_short,
+              nameLong: metric.name_long,
+              type: metric.type,
+            })
+
+            await insertPerformanceMetricEvaluation({
+              modelEvaluationId: inserted.id,
+              performanceMetricId: performanceMetric.id,
+              estimate: metric.estimate,
+              ciLower: metric.ci_lower ?? null,
+              ciUpper: metric.ci_upper ?? null
+            })
+          } catch (metricError) {
+            const errorMsg = `❌ Error al insertar PerformanceMetric para PPM ${raw.id}: ${metric.name_short} (${metric.type}): ${metricError}`
+            console.error(errorMsg)
+            log(logPath, errorMsg)
+          }
+        }
       } catch (error) {
         const errMsg = `❌ Error al insertar ModelEvaluation PPM ID ${raw.id}: ${error}`
         console.error(errMsg)
