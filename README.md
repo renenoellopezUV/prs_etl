@@ -38,3 +38,5 @@ curl NEXT_PUBLIC_API_URL/etl/prsModels
 curl NEXT_PUBLIC_API_URL/etl/prsModelTraits
 curl NEXT_PUBLIC_API_URL/etl/broadAncestryCategories
 curl NEXT_PUBLIC_API_URL/etl/developmentSamples
+curl NEXT_PUBLIC_API_URL/etl/modelEvaluations
+curl NEXT_PUBLIC_API_URL/etl/broadAncestryInModel

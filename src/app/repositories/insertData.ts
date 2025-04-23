@@ -307,3 +307,11 @@ export async function insertPerformanceMetricEvaluation(data: {
     }
   })
 }
+
+export async function insertBroadAncestryInModel(data: {
+  prsModelId: number
+  broadAncestryId: number
+  percentage: number
+}) {
+  return await prisma.broadAncestryInModel.create({ data })
+}

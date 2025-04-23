@@ -1,9 +1,10 @@
 import path from 'path'
 import { fetchAllModelEvaluationsIncremental, fetchAllTraits, fetchAllPRSModelsIncremental, fetchAllPublicationsIncremental, fetchAllTraitCategories, fetchBroadAncestryCategories } from './externalApi'
 import { transformEvaluationSample, transformModelEvaluation, transformAllTraits, transformPRSModel, transformPublication, transformAllTraitCategories, extractPRSModelTraitRelations, extractDevelopmentPopulationSamples, transformBroadAncestryCategories } from './transformer'
-import { insertPerformanceMetricEvaluation, findOrCreatePerformanceMetric, findOrCreateEvaluationSample, insertModelEvaluation, insertTrait, insertPRSModel, insertPublication, insertTraitCategoryWithRelations, connectPRSModelWithTrait, insertDevelopmentPopulationSample, insertBroadAncestryCategory, getBroadAncestryCategoryIdByLabel } from '../repositories/insertData'
+import { insertBroadAncestryInModel, insertPerformanceMetricEvaluation, findOrCreatePerformanceMetric, findOrCreateEvaluationSample, insertModelEvaluation, insertTrait, insertPRSModel, insertPublication, insertTraitCategoryWithRelations, connectPRSModelWithTrait, insertDevelopmentPopulationSample, insertBroadAncestryCategory, getBroadAncestryCategoryIdByLabel } from '../repositories/insertData'
 import { log } from '../../utils/logging'
 import { getBroadAncestryLabelFromRaw, BROAD_ANCESTRY_MAPPING } from '../../utils/broadAncestryMapping'
+import { prisma } from '@/utils/prisma'
 
 
 export async function runTraitETL() {
@@ -261,4 +262,52 @@ export async function runModelEvaluationETL() {
       }
     }
   })
+}
+
+
+export async function runBroadAncestryInModelETL() {
+  const logPath = path.join(process.cwd(), 'data', 'broadAncestryInModel_log.txt')
+
+  const allPRSModels = await prisma.pRSModel.findMany({
+    include: {
+      DevelopmentPopulationSamples: true
+    }
+  })
+
+  for (const model of allPRSModels) {
+    const samples = model.DevelopmentPopulationSamples
+
+    const totalIndividuals = samples.reduce((sum, s) => sum + (s.numberOfIndividuals || 0), 0)
+    if (totalIndividuals === 0) {
+      const warnMsg = `⚠️ Modelo ${model.pgscId} no tiene individuos registrados.`
+      console.warn(warnMsg)
+      log(logPath, warnMsg)
+      continue
+    }
+
+    const grouped: Record<number, number> = {}
+    for (const s of samples) {
+      if (!s.broadAncestryId) continue
+      grouped[s.broadAncestryId] = (grouped[s.broadAncestryId] || 0) + (s.numberOfIndividuals || 0)
+    }
+
+    for (const [broadAncestryIdStr, count] of Object.entries(grouped)) {
+      const percentage = (count / totalIndividuals) * 100
+      const broadAncestryId = parseInt(broadAncestryIdStr)
+      try {
+        await insertBroadAncestryInModel({
+          prsModelId: model.id,
+          broadAncestryId,
+          percentage
+        })
+        const msg = `✅ Registro creado: PRSModel ${model.pgscId} ↔ BroadAncestry ${broadAncestryId} (${percentage.toFixed(2)}%)`
+        console.log(msg)
+        log(logPath, msg)
+      } catch (error) {
+        const errMsg = `❌ Error al crear relación PRSModel ${model.pgscId} y BroadAncestry ${broadAncestryId}: ${error}`
+        console.error(errMsg)
+        log(logPath, errMsg)
+      }
+    }
+  }
 }
