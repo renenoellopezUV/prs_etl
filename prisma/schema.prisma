@@ -22,6 +22,7 @@ model Trait {
   mondoId     String?                @unique
   hpoId       String?                @unique
   orphaId     String?                @unique
+  otherId     String?                @unique
   prsModels   PRSModelToTrait[]
   categories  TraitToTraitCategory[]
 }
@@ -49,7 +50,7 @@ model PRSModel {
   publication                  Publication                   @relation(fields: [publicationId], references: [id])
   traits                       PRSModelToTrait[]
   prioritizedModels            PrioritizedModel[]
-  scoringFiles                 ScoringFile?
+  scoringFiles                 ScoringFile[]
 
   @@index([publicationId], map: "PRSModel_publicationId_fkey")
 }
@@ -89,7 +90,7 @@ model Publication {
 model ModelEvaluation {
   id                           Int                           @id @default(autoincrement())
   reportedTrait                String
-  covariates                   String? @db.Text
+  covariates                   String?                       @db.Text
   ppmId                        String?
   prsModelId                   Int
   publicationId                Int
@@ -128,20 +129,20 @@ model PerformanceMetric {
 
 model EvaluationPopulationSample {
   id                    Int                   @id @default(autoincrement())
-  numberOfIndividuals   Int
+  numberOfIndividuals   Int?
   numberOfCases         Int?
   numberOfControls      Int?
   percentMale           Float?
   age                   Float?
   ageUnits              String?
   ancestryBroad         String
-  ancestryDetails       String? @db.Text
-  cohort                String @db.Text
+  ancestryDetails       String?               @db.Text
+  cohort                String                @db.Text
   gcId                  String?
   sourcePMID            String?
   sourceDOI             String?
-  phenotypeFree         String? @db.Text
-  pssId                 String @unique
+  phenotypeFree         String?               @db.Text
+  pssId                 String                @unique
   broadAncestryId       Int
   broadAncestryCategory BroadAncestryCategory @relation(fields: [broadAncestryId], references: [id])
   modelEvaluations      ModelEvaluation[]
@@ -172,15 +173,15 @@ model BroadAncestryInModel {
 
 model DevelopmentPopulationSample {
   id                    Int                   @id @default(autoincrement())
-  numberOfIndividuals   Int
+  numberOfIndividuals   Int?
   numberOfCases         Int?
   numberOfControls      Int?
   percentMale           Float?
   age                   Float?
   ageUnits              String?
   ancestryBroad         String
-  ancestryDetails       String? @db.Text
-  cohort                String @db.Text
+  ancestryDetails       String?               @db.Text
+  cohort                String                @db.Text
   gcId                  String?
   sourcePMID            String?
   sourceDOI             String?
@@ -209,7 +210,10 @@ model ReferencePopulation {
   id                      Int                     @id @default(autoincrement())
   name                    String
   description             String?
+  studyName               String
   studyURL                String?
+  numberOfvariants        Int?
+  numberOfindividuals     Int?
   assembly                AssemblyType
   broadAncestryCategories BroadAncestryInRefPop[]
   prsAnalyses             PRSAnalysis[]
@@ -223,7 +227,6 @@ model PRSAnalysis {
   date                  String
   status                String
   HTMLResultPath        String
-  patientFormat         String
   ancestryThreshold     Int
   overlapThreshold      Int
   ancestryAdjustment    AncestryAdjustmentType
@@ -266,7 +269,8 @@ model PRSResult {
 model Patient {
   id               Int           @id @default(autoincrement())
   patientId        String
-  VCFFilePath      String
+  DataFilePath     String
+  DataFilteFormat  String
   genotypingMethod String?
   prsAnalyses      PRSAnalysis[]
 }

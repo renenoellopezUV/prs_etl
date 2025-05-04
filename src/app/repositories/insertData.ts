@@ -32,6 +32,7 @@ export async function insertTraitCategoryWithRelations(input: TraitCategoryInput
         { mondoId: { in: input.traitEfoIds } },
         { hpoId: { in: input.traitEfoIds } },
         { orphaId: { in: input.traitEfoIds } },
+        { otherId: { in: input.traitEfoIds } },
       ],
     },
     select: { id: true },
@@ -63,12 +64,23 @@ type PRSModelInput = {
 }
 
 export async function insertPRSModel(data: any) {
-  const publication = data.publicationPmid
-    ? await prisma.publication.findUnique({ where: { PMID: data.publicationPmid } })
-    : null
+  let publication = null;
+
+  if (data.publicationPmid) {
+    publication = await prisma.publication.findUnique({
+      where: { PMID: data.publicationPmid },
+    });
+  }
+
+  // Si no la encontró por PMID, busca por pgpId
+  if (!publication && data.publicationId) {
+    publication = await prisma.publication.findUnique({
+      where: { pgpId: data.publicationId },
+    });
+  }
 
   if (!publication) {
-    throw new Error(`❌ No se encontró la publicación con PMID ${data.publicationPmid}`)
+    throw new Error(`❌ No se encontró la publicación con PMID '${data.publicationPmid}' ni pgpId '${data.publicationId}'`);
   }
 
   return await prisma.pRSModel.create({
@@ -78,10 +90,10 @@ export async function insertPRSModel(data: any) {
       pgscId: data.pgscId,
       pgscURL: data.pgscURL,
       publication: {
-        connect: { id: publication.id }
-      }
+        connect: { id: publication.id },
+      },
     },
-  })
+  });
 }
 
 export async function insertPublication(data: any) {

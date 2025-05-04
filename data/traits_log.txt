@@ -654,3 +654,659 @@
 ✅ Trait insertado: white matter volume measurement
 ✅ Trait insertado: whole body water mass
 ✅ Trait insertado: worry measurement
+✅ Trait insertado: Abdominal Aortic Aneurysm
+✅ Trait insertado: Abdominal pain
+✅ Trait insertado: Abnormal circulating lipid concentration
+✅ Trait insertado: Abnormal EKG
+✅ Trait insertado: Abnormality of skin pigmentation
+✅ Trait insertado: Abnormality of the skeletal system
+✅ Trait insertado: ACPA-negative rheumatoid arthritis
+✅ Trait insertado: ACPA-positive rheumatoid arthritis
+✅ Trait insertado: acute kidney failure
+✅ Trait insertado: acute lymphoblastic leukemia
+✅ Trait insertado: acute myocardial infarction
+✅ Trait insertado: addictive behaviour
+✅ Trait insertado: adipose amount
+✅ Trait insertado: age at death
+✅ Trait insertado: age at diagnosis
+✅ Trait insertado: age at first birth measurement
+✅ Trait insertado: age at first sexual intercourse measurement
+✅ Trait insertado: age at initiation of smoking
+✅ Trait insertado: age at menarche
+✅ Trait insertado: age at menopause
+✅ Trait insertado: age-related hearing impairment
+✅ Trait insertado: age-related macular degeneration
+✅ Trait insertado: aging rate
+✅ Trait insertado: alcohol consumption quality
+✅ Trait insertado: alcohol dependence
+✅ Trait insertado: alcohol dependence measurement
+✅ Trait insertado: alcohol drinking
+✅ Trait insertado: alcoholic liver cirrhosis
+✅ Trait insertado: alcohol-induced mental disorder
+✅ Trait insertado: alkaline phosphatase measurement
+✅ Trait insertado: allergic disease
+✅ Trait insertado: allergic rhinitis
+✅ Trait insertado: Alzheimer disease
+✅ Trait insertado: anal polyp
+✅ Trait insertado: anemia
+✅ Trait insertado: angina pectoris
+✅ Trait insertado: ankylosing spondylitis
+✅ Trait insertado: anthropometric measurement
+✅ Trait insertado: anxiety disorder
+✅ Trait insertado: anxiety measurement
+✅ Trait insertado: aortic measurement
+✅ Trait insertado: aortic valve disease
+✅ Trait insertado: APOE carrier status
+✅ Trait insertado: apolipoprotein A 1 measurement
+✅ Trait insertado: apolipoprotein A-IV measurement
+✅ Trait insertado: apolipoprotein B measurement
+✅ Trait insertado: appendectomy
+✅ Trait insertado: appendicitis
+✅ Trait insertado: arterial stiffness measurement
+✅ Trait insertado: arthritis
+✅ Trait insertado: Arthropathy
+✅ Trait insertado: aspartate aminotransferase measurement
+✅ Trait insertado: aspartate aminotransferase to alanine aminotransferase ratio
+✅ Trait insertado: aspirin use measurement
+✅ Trait insertado: asthma
+✅ Trait insertado: atopic eczema
+✅ Trait insertado: atrial fibrillation
+✅ Trait insertado: atrial flutter
+✅ Trait insertado: attention deficit hyperactivity disorder
+✅ Trait insertado: autism spectrum disorder
+✅ Trait insertado: autoimmune disease
+✅ Trait insertado: Back pain
+✅ Trait insertado: balding measurement
+✅ Trait insertado: Barrett's esophagus
+✅ Trait insertado: basal cell carcinoma
+✅ Trait insertado: base metabolic rate measurement
+✅ Trait insertado: basophil count
+✅ Trait insertado: basophil percentage of leukocytes
+✅ Trait insertado: behavioural disinhibition measurement
+✅ Trait insertado: benign colon neoplasm
+✅ Trait insertado: benign digestive system neoplasm
+✅ Trait insertado: benign prostatic hyperplasia
+✅ Trait insertado: beta-amyloid 1-42 measurement
+✅ Trait insertado: biliary tract disease
+✅ Trait insertado: bilirubin measurement
+✅ Trait insertado: bilirubin metabolism disease
+✅ Trait insertado: bipolar disorder
+✅ Trait insertado: bipolar I disorder
+✅ Trait insertado: bipolar II disorder
+✅ Trait insertado: birth weight
+✅ Trait insertado: blood coagulation disease
+✅ Trait insertado: blood glucose amount
+✅ Trait insertado: blood immunoglobulin amount
+✅ Trait insertado: blood insulin amount
+✅ Trait insertado: blood protein measurement
+✅ Trait insertado: BMI-adjusted fasting blood glucose measurement
+✅ Trait insertado: BMI-adjusted fasting blood insulin measurement
+✅ Trait insertado: BMI-adjusted waist-hip ratio
+✅ Trait insertado: body composition measurement
+✅ Trait insertado: body fat percentage
+✅ Trait insertado: body height
+✅ Trait insertado: body mass index
+✅ Trait insertado: body weight
+✅ Trait insertado: body weights and measures
+✅ Trait insertado: bone fracture
+✅ Trait insertado: bone quantitative ultrasound measurement
+✅ Trait insertado: bone tissue density
+✅ Trait insertado: bowel opening frequency
+✅ Trait insertado: brain aneurysm
+✅ Trait insertado: brain cancer
+✅ Trait insertado: brain neoplasm
+✅ Trait insertado: brain stem volume
+✅ Trait insertado: brain volume
+✅ Trait insertado: breast carcinoma
+✅ Trait insertado: bronchus cancer
+✅ Trait insertado: Brugada syndrome
+✅ Trait insertado: calcium measurement
+✅ Trait insertado: cancer
+✅ Trait insertado: Cannabis use
+✅ Trait insertado: carbohydrate intake measurement
+✅ Trait insertado: cardiomyopathy
+✅ Trait insertado: cardiovascular disease
+✅ Trait insertado: cardiovascular disease biomarker measurement
+✅ Trait insertado: carotid artery thickness
+✅ Trait insertado: cataract
+✅ Trait insertado: caudate nucleus volume
+✅ Trait insertado: celiac disease
+✅ Trait insertado: cellulitis
+✅ Trait insertado: central nervous system cancer
+✅ Trait insertado: cerebrospinal fluid amount
+✅ Trait insertado: cerebrovascular disorder
+✅ Trait insertado: cervical carcinoma
+✅ Trait insertado: Chest pain
+✅ Trait insertado: childhood onset asthma
+✅ Trait insertado: Cholecystitis
+✅ Trait insertado: cholelithiasis
+✅ Trait insertado: chronic kidney disease
+✅ Trait insertado: chronic lymphocytic leukemia
+✅ Trait insertado: chronic obstructive pulmonary disease
+✅ Trait insertado: chronic primary adrenal insufficiency
+✅ Trait insertado: chronotype measurement
+✅ Trait insertado: cigarettes per day measurement
+✅ Trait insertado: cirrhosis of liver
+✅ Trait insertado: cleft lip
+✅ Trait insertado: Cleft palate
+✅ Trait insertado: clinical history
+✅ Trait insertado: coffee consumption measurement
+✅ Trait insertado: cognitive decline measurement
+✅ Trait insertado: colon carcinoma
+✅ Trait insertado: Colonic diverticula
+✅ Trait insertado: colorectal cancer
+✅ Trait insertado: colorectal carcinoma
+✅ Trait insertado: common wart
+✅ Trait insertado: comparative body size at age 10, self-reported
+✅ Trait insertado: complication
+✅ Trait insertado: congenital deformities of limbs
+✅ Trait insertado: congenital vitamin K-dependent coagulation factors deficiency
+✅ Trait insertado: congestive heart failure
+✅ Trait insertado: connective tissue disease
+✅ Trait insertado: corneal disease
+✅ Trait insertado: corneal dystrophy
+✅ Trait insertado: corneal hysteresis
+✅ Trait insertado: corneal resistance factor
+✅ Trait insertado: coronary artery calcification
+✅ Trait insertado: coronary artery disease
+✅ Trait insertado: coronary atherosclerosis
+✅ Trait insertado: cor pulmonale
+✅ Trait insertado: COVID-19
+✅ Trait insertado: C-reactive protein measurement
+✅ Trait insertado: creatine measurement
+✅ Trait insertado: creatinine clearance measurement
+✅ Trait insertado: Crohn's disease
+✅ Trait insertado: cutaneous melanoma
+✅ Trait insertado: cystatin C measurement
+✅ Trait insertado: deafness
+✅ Trait insertado: deep vein thrombosis
+✅ Trait insertado: dementia
+✅ Trait insertado: dentate gyrus volume
+✅ Trait insertado: dentures
+✅ Trait insertado: depressive disorder
+✅ Trait insertado: depressive episode measurement
+✅ Trait insertado: depressive symptom measurement
+✅ Trait insertado: dermatitis
+✅ Trait insertado: device complication
+✅ Trait insertado: diabetes mellitus
+✅ Trait insertado: diabetic eye disease
+✅ Trait insertado: diabetic retinopathy
+✅ Trait insertado: diaphragmatic hernia
+✅ Trait insertado: diastolic blood pressure
+✅ Trait insertado: diet measurement
+✅ Trait insertado: diffuse large B-cell lymphoma
+✅ Trait insertado: Digestive System Carcinoma
+✅ Trait insertado: digestive system disease
+✅ Trait insertado: dilated cardiomyopathy
+✅ Trait insertado: disease
+✅ Trait insertado: disorder of appendix
+✅ Trait insertado: disorder of pilosebaceous unit
+✅ Trait insertado: diverticular disease
+✅ Trait insertado: diverticulitis
+✅ Trait insertado: drinking behavior
+✅ Trait insertado: drug allergy
+✅ Trait insertado: drug use measurement
+✅ Trait insertado: duodenal ulcer
+✅ Trait insertado: duodenitis
+✅ Trait insertado: Dupuytren Contracture
+✅ Trait insertado: ease of getting up in the morning, self-reported
+✅ Trait insertado: eating disorder
+✅ Trait insertado: Eczematoid dermatitis
+✅ Trait insertado: educational attainment
+✅ Trait insertado: emotional symptom measurement
+✅ Trait insertado: emphysema
+✅ Trait insertado: encounter with health service
+✅ Trait insertado: endocrine system disease
+✅ Trait insertado: endometrial cancer
+✅ Trait insertado: endometrial carcinoma
+✅ Trait insertado: endometriosis
+✅ Trait insertado: enthesitis-related juvenile idiopathic arthritis
+✅ Trait insertado: eosinophil count
+✅ Trait insertado: eosinophil percentage of leukocytes
+✅ Trait insertado: Epidermal Inclusion Cyst
+✅ Trait insertado: epilepsy
+✅ Trait insertado: Epiphyses, Slipped
+✅ Trait insertado: Epstein Barr virus nuclear antigen-1 seropositivity
+✅ Trait insertado: erythrocyte count
+✅ Trait insertado: erythrocyte volume
+✅ Trait insertado: esophageal adenocarcinoma
+✅ Trait insertado: esophageal cancer
+✅ Trait insertado: esophageal carcinoma
+✅ Trait insertado: esophageal disease
+✅ Trait insertado: esophagitis
+✅ Trait insertado: essential hypertension
+✅ Trait insertado: estradiol measurement
+✅ Trait insertado: estrogen-receptor negative breast cancer
+✅ Trait insertado: estrogen-receptor positive breast cancer
+✅ Trait insertado: executive function measurement
+✅ Trait insertado: eye disease
+✅ Trait insertado: eye inflammation
+✅ Trait insertado: eye measurement
+✅ Trait insertado: factor VIII measurement
+✅ Trait insertado: fall
+✅ Trait insertado: family history
+✅ Trait insertado: family history of Alzheimer’s disease
+✅ Trait insertado: family history of breast cancer
+✅ Trait insertado: family history of lung cancer
+✅ Trait insertado: family history of prostate cancer
+✅ Trait insertado: father's age at death
+✅ Trait insertado: fat pad mass
+✅ Trait insertado: feeling emotionally hurt measurement
+✅ Trait insertado: feeling nervous measurement
+✅ Trait insertado: female
+✅ Trait insertado: female reproductive system neoplasm
+✅ Trait insertado: ferritin measurement
+✅ Trait insertado: FEV/FVC ratio
+✅ Trait insertado: fibroblastic disorder
+✅ Trait insertado: fish consumption measurement
+✅ Trait insertado: folic acid measurement
+✅ Trait insertado: Follicular Cyst
+✅ Trait insertado: follicular lymphoma
+✅ Trait insertado: forced expiratory volume
+✅ Trait insertado: fourth ventricle volume
+✅ Trait insertado: friendship satisfaction measurement
+✅ Trait insertado: gallstones
+✅ Trait insertado: ganglion or cyst of synovium/tendon/bursa
+✅ Trait insertado: gastric cancer
+✅ Trait insertado: gastritis
+✅ Trait insertado: gastroesophageal reflux disease
+✅ Trait insertado: gestational age
+✅ Trait insertado: gestational diabetes
+✅ Trait insertado: GFR change measurement
+✅ Trait insertado: glaucoma
+✅ Trait insertado: glioblastoma
+✅ Trait insertado: glioma
+✅ Trait insertado: glomerular filtration rate
+✅ Trait insertado: glucose measurement
+✅ Trait insertado: glucose tolerance test
+✅ Trait insertado: gout
+✅ Trait insertado: grey matter volume measurement
+✅ Trait insertado: grip strength measurement
+✅ Trait insertado: Hallux valgus
+✅ Trait insertado: handedness
+✅ Trait insertado: HbA1c measurement
+✅ Trait insertado: Headache
+✅ Trait insertado: headache disorder
+✅ Trait insertado: head and neck squamous cell carcinoma
+✅ Trait insertado: health-related quality of life measurement
+✅ Trait insertado: health satisfaction measurement
+✅ Trait insertado: health trait
+✅ Trait insertado: hearing disorder
+✅ Trait insertado: hearing loss
+✅ Trait insertado: heart disease
+✅ Trait insertado: heart failure
+✅ Trait insertado: heart rate
+✅ Trait insertado: heel bone mineral density
+✅ Trait insertado: hematocrit
+✅ Trait insertado: hematological measurement
+✅ Trait insertado: hematologic disease
+✅ Trait insertado: Hematuria
+✅ Trait insertado: hemoglobin measurement
+✅ Trait insertado: hemorrhoid
+✅ Trait insertado: HER2 negative breast carcinoma
+✅ Trait insertado: HER2 Positive Breast Carcinoma
+✅ Trait insertado: Herpes Zoster
+✅ Trait insertado: Hiatus hernia
+✅ Trait insertado: high density lipoprotein cholesterol measurement
+✅ Trait insertado: high grade ovarian serous adenocarcinoma
+✅ Trait insertado: hip circumference
+✅ Trait insertado: hippocampal amigdala transition area volume
+✅ Trait insertado: hippocampal CA1 volume
+✅ Trait insertado: hippocampal CA3 volume
+✅ Trait insertado: hippocampal CA4 volume
+✅ Trait insertado: hippocampal fissure volume
+✅ Trait insertado: hippocampal formation volume
+✅ Trait insertado: hippocampal volume
+✅ Trait insertado: hippocampus fimbria volume
+✅ Trait insertado: hippocampus molecular layer volume
+✅ Trait insertado: Hodgkins lymphoma
+✅ Trait insertado: HOMA-B
+✅ Trait insertado: HOMA-IR
+✅ Trait insertado: household income
+✅ Trait insertado: Hypercholesterolemia
+✅ Trait insertado: hypertension
+✅ Trait insertado: hyperthyroidism
+✅ Trait insertado: hypertrophic cardiomyopathy
+✅ Trait insertado: Hypoglycemia
+✅ Trait insertado: hypothyroidism
+✅ Trait insertado: idiopathic pulmonary fibrosis
+✅ Trait insertado: IGF-1 measurement
+✅ Trait insertado: Increased blood pressure
+✅ Trait insertado: inflammatory bowel disease
+✅ Trait insertado: Inguinal hernia
+✅ Trait insertado: insomnia
+✅ Trait insertado: insomnia measurement
+✅ Trait insertado: insulin-like protein amount
+✅ Trait insertado: insulin resistance
+✅ Trait insertado: insulin response measurement
+✅ Trait insertado: insulin secretion trait
+✅ Trait insertado: insulin sensitivity measurement
+✅ Trait insertado: insulin use measurement
+✅ Trait insertado: intelligence
+✅ Trait insertado: interstitial lung disease
+✅ Trait insertado: Intervertebral Disc Displacement
+✅ Trait insertado: intestinal disease
+✅ Trait insertado: intracerebral hemorrhage
+✅ Trait insertado: intraocular pressure measurement
+✅ Trait insertado: Iridocyclitis
+✅ Trait insertado: iritis
+✅ Trait insertado: iron metabolism disease
+✅ Trait insertado: Ischemic stroke
+✅ Trait insertado: joint disease
+✅ Trait insertado: juvenile idiopathic arthritis
+✅ Trait insertado: keratinocyte carcinoma
+✅ Trait insertado: keratoconus
+✅ Trait insertado: kidney cancer
+✅ Trait insertado: kidney failure
+✅ Trait insertado: knee injury
+✅ Trait insertado: late-onset Alzheimer's disease
+✅ Trait insertado: lean body mass
+✅ Trait insertado: left ventricular ejection fraction measurement
+✅ Trait insertado: left ventricular mass index
+✅ Trait insertado: left ventricular stroke volume measurement
+✅ Trait insertado: left ventricular systolic function measurement
+✅ Trait insertado: leukocyte quantity
+✅ Trait insertado: level of serum globulin type protein
+✅ Trait insertado: life span trait
+✅ Trait insertado: lifestyle measurement
+✅ Trait insertado: lipoprotein A measurement
+✅ Trait insertado: liver disease
+✅ Trait insertado: liver fat measurement
+✅ Trait insertado: loneliness measurement
+✅ Trait insertado: longitudinal alcohol consumption measurement
+✅ Trait insertado: low density lipoprotein cholesterol measurement
+✅ Trait insertado: luminal A breast carcinoma
+✅ Trait insertado: luminal B breast carcinoma
+✅ Trait insertado: lung adenocarcinoma
+✅ Trait insertado: lung cancer
+✅ Trait insertado: lung carcinoma
+✅ Trait insertado: lupus erythematosus
+✅ Trait insertado: lymphocyte count
+✅ Trait insertado: lymphocyte percentage of leukocytes
+✅ Trait insertado: lymphoid leukemia
+✅ Trait insertado: macular degeneration
+✅ Trait insertado: major depressive disorder
+✅ Trait insertado: Malabsorption
+✅ Trait insertado: male
+✅ Trait insertado: male reproductive organ cancer
+✅ Trait insertado: Malignant Laryngeal Neoplasm
+✅ Trait insertado: marginal zone B-cell lymphoma
+✅ Trait insertado: mean arterial pressure
+✅ Trait insertado: mean corpuscular hemoglobin
+✅ Trait insertado: mean corpuscular hemoglobin concentration
+✅ Trait insertado: mean reticulocyte volume
+✅ Trait insertado: medical procedure
+✅ Trait insertado: melanoma
+✅ Trait insertado: menstrual cycle attribute
+✅ Trait insertado: mental or behavioural disorder
+✅ Trait insertado: merkel cell virus seropositivity
+✅ Trait insertado: metabolic disease
+✅ Trait insertado: metabolic rate measurement
+✅ Trait insertado: metabolic syndrome
+✅ Trait insertado: migraine disorder
+✅ Trait insertado: mineral metabolism disease
+✅ Trait insertado: Mitral valve prolapse
+✅ Trait insertado: Moderate albuminuria
+✅ Trait insertado: monocyte count
+✅ Trait insertado: monocyte percentage of leukocytes
+✅ Trait insertado: mononeuropathy
+✅ Trait insertado: mosaic loss of chromosome Y measurement
+✅ Trait insertado: multinodular goiter
+✅ Trait insertado: multiple myeloma
+✅ Trait insertado: multiple sclerosis
+✅ Trait insertado: myocardial infarction
+✅ Trait insertado: Myocardial Ischemia
+✅ Trait insertado: Myopia
+✅ Trait insertado: myxedema
+✅ Trait insertado: nap during day, self-reported
+✅ Trait insertado: narcolepsy
+✅ Trait insertado: narcolepsy-cataplexy syndrome
+✅ Trait insertado: Nasal Cavity Polyp
+✅ Trait insertado: Nasal polyposis
+✅ Trait insertado: nasopharyngeal neoplasm
+✅ Trait insertado: nephrolithiasis
+✅ Trait insertado: nephrotic syndrome
+✅ Trait insertado: neuroblastoma
+✅ Trait insertado: neuroimaging measurement
+✅ Trait insertado: neuroticism measurement
+✅ Trait insertado: neutrophil count
+✅ Trait insertado: neutrophil percentage of leukocytes
+✅ Trait insertado: nicotine dependence
+✅ Trait insertado: nicotine metabolite ratio
+✅ Trait insertado: non-alcoholic fatty liver disease
+✅ Trait insertado: non-alcoholic fatty liver disease severity measurement
+✅ Trait insertado: non-high density lipoprotein cholesterol measurement
+✅ Trait insertado: non-Hodgkins lymphoma
+✅ Trait insertado: non-melanoma skin carcinoma
+✅ Trait insertado: Non-ST Elevation Myocardial Infarction
+✅ Trait insertado: nontoxic goiter
+✅ Trait insertado: NSAID use measurement
+✅ Trait insertado: nucleus accumbens volume
+✅ Trait insertado: number of cancers, self-reported
+✅ Trait insertado: number of children ever born measurement
+✅ Trait insertado: number of non-cancer illnesses, self-reported
+✅ Trait insertado: number of treatments or medications taken, self-reported
+✅ Trait insertado: obesity
+✅ Trait insertado: obstructive sleep apnea
+✅ Trait insertado: occlusion precerebral artery
+✅ Trait insertado: ocular cancer
+✅ Trait insertado: oligoarticular juvenile idiopathic arthritis
+✅ Trait insertado: open-angle glaucoma
+✅ Trait insertado: oral cavity cancer
+✅ Trait insertado: Oral ulcer
+✅ Trait insertado: osteoarthritis
+✅ Trait insertado: osteoarthritis, hip
+✅ Trait insertado: osteoarthritis, knee
+✅ Trait insertado: osteoporosis
+✅ Trait insertado: otosclerosis
+✅ Trait insertado: ovarian carcinoma
+✅ Trait insertado: ovarian neoplasm
+✅ Trait insertado: ovarian serous carcinoma
+✅ Trait insertado: overnutrition
+✅ Trait insertado: overweight body mass index status
+✅ Trait insertado: pallidum volume
+✅ Trait insertado: pancreas disease
+✅ Trait insertado: pancreatic carcinoma
+✅ Trait insertado: pancreatic ductal adenocarcinoma
+✅ Trait insertado: pancreatic neoplasm
+✅ Trait insertado: parasubiculum volume
+✅ Trait insertado: Parkinson disease
+✅ Trait insertado: peak expiratory flow
+✅ Trait insertado: pelvic organ prolapse
+✅ Trait insertado: peripheral arterial disease
+✅ Trait insertado: peripheral nervous system disease
+✅ Trait insertado: peripheral vascular disease
+✅ Trait insertado: pharynx cancer
+✅ Trait insertado: Phlebitis
+✅ Trait insertado: phosphate measurement
+✅ Trait insertado: physical activity measurement
+✅ Trait insertado: platelet component distribution width
+✅ Trait insertado: platelet count
+✅ Trait insertado: platelet crit
+✅ Trait insertado: platelet volume
+✅ Trait insertado: polyarticular juvenile idiopathic arthritis, rheumatoid factor negative
+✅ Trait insertado: polycythemia vera
+✅ Trait insertado: polymyalgia rheumatica
+✅ Trait insertado: polyomavirus 2 seropositivity
+✅ Trait insertado: polyp of colon
+✅ Trait insertado: polyp of rectum
+✅ Trait insertado: polyunsaturated fatty acid measurement
+✅ Trait insertado: porphyrin metabolism disease
+✅ Trait insertado: PP interval
+✅ Trait insertado: preeclampsia
+✅ Trait insertado: presubiculum volume
+✅ Trait insertado: PR interval
+✅ Trait insertado: proinsulin measurement
+✅ Trait insertado: prolapse of female genital organ
+✅ Trait insertado: prostate adenocarcinoma
+✅ Trait insertado: prostate cancer
+✅ Trait insertado: prostate carcinoma
+✅ Trait insertado: prostate disease
+✅ Trait insertado: prostate specific antigen amount
+✅ Trait insertado: prurigo nodularis
+✅ Trait insertado: psoriasis
+✅ Trait insertado: psoriatic arthritis
+✅ Trait insertado: pulmonary embolism
+✅ Trait insertado: pulmonary fibrosis
+✅ Trait insertado: pulse pressure measurement
+✅ Trait insertado: putamen volume
+✅ Trait insertado: P wave duration
+✅ Trait insertado: QRS duration
+✅ Trait insertado: QT interval
+✅ Trait insertado: radius fracture
+✅ Trait insertado: reactive arthritis
+✅ Trait insertado: rectosigmoid junction neoplasm
+✅ Trait insertado: rectum cancer
+✅ Trait insertado: recurrent
+✅ Trait insertado: Red cell distribution width
+✅ Trait insertado: refractive error measurement
+✅ Trait insertado: REM sleep behavior disorder
+✅ Trait insertado: renal carcinoma
+✅ Trait insertado: renal cell carcinoma
+✅ Trait insertado: reproductive behavior trait
+✅ Trait insertado: respiratory system cancer
+✅ Trait insertado: respiratory system disease
+✅ Trait insertado: respiratory tract infectious disorder
+✅ Trait insertado: response to beta blocker
+✅ Trait insertado: response to bronchodilator
+✅ Trait insertado: response to radiation
+✅ Trait insertado: response to statin
+✅ Trait insertado: reticulocyte amount
+✅ Trait insertado: reticulocyte count
+✅ Trait insertado: reticulocyte measurement
+✅ Trait insertado: retinal break
+✅ Trait insertado: retinal detachment
+✅ Trait insertado: retinopathy
+✅ Trait insertado: rheumatoid arthritis
+✅ Trait insertado: rheumatoid factor measurement
+✅ Trait insertado: Rh isoimmunization
+✅ Trait insertado: risk-taking behaviour
+✅ Trait insertado: RR interval
+✅ Trait insertado: sarcoidosis
+✅ Trait insertado: schizophrenia
+✅ Trait insertado: seasonal allergic rhinitis
+✅ Trait insertado: seborrheic keratosis
+✅ Trait insertado: seeing a general practitioner for nerves, anxiety, tension or depression, self-reported
+✅ Trait insertado: seeing a psychiatrist for nerves, anxiety, tension or depression, self-reported
+✅ Trait insertado: Self-injurious behavior
+✅ Trait insertado: self-reported trait
+✅ Trait insertado: serum alanine aminotransferase measurement
+✅ Trait insertado: serum albumin amount
+✅ Trait insertado: serum creatinine amount
+✅ Trait insertado: serum gamma-glutamyl transferase measurement
+✅ Trait insertado: serum IgE amount
+✅ Trait insertado: serum urea amount
+✅ Trait insertado: sex hormone-binding globulin
+✅ Trait insertado: sex hormone-binding globulin measurement
+✅ Trait insertado: sitting height measurement
+✅ Trait insertado: Sjogren syndrome
+✅ Trait insertado: skin aging
+✅ Trait insertado: skin cancer
+✅ Trait insertado: skin carcinoma
+✅ Trait insertado: skin carcinoma in situ
+✅ Trait insertado: skin disease
+✅ Trait insertado: skin sarcoidosis
+✅ Trait insertado: sleep apnea
+✅ Trait insertado: Sleep Disorder
+✅ Trait insertado: sleep duration trait
+✅ Trait insertado: smoking behavior trait
+✅ Trait insertado: smoking cessation
+✅ Trait insertado: smoking initiation
+✅ Trait insertado: smoking status measurement
+✅ Trait insertado: snoring measurement
+✅ Trait insertado: social interaction measurement
+✅ Trait insertado: sodium measurement
+✅ Trait insertado: soft tissue disease
+✅ Trait insertado: spondyloarthropathy
+✅ Trait insertado: spondylosis
+✅ Trait insertado: spontaneous coronary artery dissection
+✅ Trait insertado: squamous cell carcinoma
+✅ Trait insertado: squamous cell lung carcinoma
+✅ Trait insertado: strand of hair color
+✅ Trait insertado: stroke
+✅ Trait insertado: subiculum volume
+✅ Trait insertado: substance-related disorder
+✅ Trait insertado: sugar consumption measurement
+✅ Trait insertado: sunburn
+✅ Trait insertado: sun exposure measurement
+✅ Trait insertado: suntan
+✅ Trait insertado: superior frontal gyrus grey matter volume measurement
+✅ Trait insertado: Syncope
+✅ Trait insertado: systemic lupus erythematosus
+✅ Trait insertado: systemic scleroderma
+✅ Trait insertado: systolic blood pressure
+✅ Trait insertado: tea consumption measurement
+✅ Trait insertado: testicular carcinoma
+✅ Trait insertado: Testicular Germ Cell Tumor
+✅ Trait insertado: testicular neoplasm
+✅ Trait insertado: testosterone measurement
+✅ Trait insertado: thalamus volume
+✅ Trait insertado: Thrombocytopenia
+✅ Trait insertado: Thrombophlebitis
+✅ Trait insertado: thrombotic disease
+✅ Trait insertado: thyroid carcinoma
+✅ Trait insertado: thyroid disease
+✅ Trait insertado: Thyroid preparation use measurement
+✅ Trait insertado: thyroid stimulating hormone amount
+✅ Trait insertado: Thyrotoxicosis
+✅ Trait insertado: thyroxine measurement
+✅ Trait insertado: time spent outdoors measurement
+✅ Trait insertado: Tinnitus
+✅ Trait insertado: tiredness measurement
+✅ Trait insertado: tobacco smoke exposure measurement
+✅ Trait insertado: tongue neoplasm
+✅ Trait insertado: total blood protein measurement
+✅ Trait insertado: total cholesterol measurement
+✅ Trait insertado: total hip arthroplasty
+✅ Trait insertado: total knee arthroplasty
+✅ Trait insertado: tracheal cancer
+✅ Trait insertado: trauma exposure measurement
+✅ Trait insertado: triglyceride measurement
+✅ Trait insertado: triple-negative breast cancer
+✅ Trait insertado: type 1 diabetes mellitus
+✅ Trait insertado: type 2 diabetes mellitus
+✅ Trait insertado: ulcerative colitis
+✅ Trait insertado: Umbilical hernia
+✅ Trait insertado: upper extremity fracture
+✅ Trait insertado: urate measurement
+✅ Trait insertado: urea measurement
+✅ Trait insertado: ureterolithiasis
+✅ Trait insertado: uric acid measurement
+✅ Trait insertado: urinary albumin to creatinine ratio
+✅ Trait insertado: urinary bladder cancer
+✅ Trait insertado: urinary bladder carcinoma
+✅ Trait insertado: urinary metabolite measurement
+✅ Trait insertado: urinary microalbumin measurement
+✅ Trait insertado: urinary system disease
+✅ Trait insertado: urine potassium amount
+✅ Trait insertado: urolithiasis
+✅ Trait insertado: uterine benign neoplasm
+✅ Trait insertado: uterine cancer
+✅ Trait insertado: uterine carcinoma
+✅ Trait insertado: uterine corpus cancer
+✅ Trait insertado: uterine fibroid
+✅ Trait insertado: Varicella zoster virus seropositivity
+✅ Trait insertado: Varicose veins
+✅ Trait insertado: vascular dementia
+✅ Trait insertado: vascular disease
+✅ Trait insertado: vasomotor rhinitis
+✅ Trait insertado: velocity of sound measurement
+✅ Trait insertado: venous thromboembolism
+✅ Trait insertado: ventricular rate measurement
+✅ Trait insertado: vertebral column disorder
+✅ Trait insertado: visceral adipose tissue quantity
+✅ Trait insertado: visual acuity measurement
+✅ Trait insertado: vital capacity
+✅ Trait insertado: vitamin B12 deficiency
+✅ Trait insertado: vitamin B12 measurement
+✅ Trait insertado: vitamin D measurement
+✅ Trait insertado: vitamin supplement exposure measurement
+✅ Trait insertado: Vitiligo
+✅ Trait insertado: waist circumference
+✅ Trait insertado: waist-hip ratio
+✅ Trait insertado: Waldenstrom macroglobulinemia
+✅ Trait insertado: wellbeing measurement
+✅ Trait insertado: white matter hyperintensity measurement
+✅ Trait insertado: white matter volume measurement
+✅ Trait insertado: whole body water mass
+✅ Trait insertado: worry measurement

@@ -14,9 +14,17 @@ export function transformTrait(raw: TraitJson) {
     efoId: idValue.startsWith('EFO_') ? idValue : null,
     mondoId: idValue.startsWith('MONDO_') ? idValue : null,
     hpoId: idValue.startsWith('HP_') ? idValue : null,
-    orphaId: idValue.startsWith('Orphanet') || idValue.startsWith('OBA_') ? idValue : null,
+    orphaId: idValue.startsWith('OBA_') ? idValue : null,
+    otherId:
+      !idValue.startsWith('EFO_') &&
+      !idValue.startsWith('MONDO_') &&
+      !idValue.startsWith('HP_') &&
+      !idValue.startsWith('OBA_')
+        ? idValue
+        : null,
   }
 }
+
 
 
 export function transformAllTraits(traits: any[]): ReturnType<typeof transformTrait>[] {
