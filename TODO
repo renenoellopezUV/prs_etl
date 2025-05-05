@@ -1,0 +1,9 @@
+CORREGIR
+Poner FECHA a los log
+log publication: todo lo que conecte a PGP000148 que conecte a PGP000058
+log publication: los preprint van FUERA
+log prs_model_trait: revisar relación PRS model con traits con ontología other_id
+log prs_model_trait: error prs model - trait por pgscID no encontrado: 103 CHECK con los que son preprint
+log development_population_sample: atributo ancestry_broad tiene que ser más grande
+log development_population_sample: parche para age mal reportado, ej: 62.4 [min,max]
+falta log evaluaiton samples
