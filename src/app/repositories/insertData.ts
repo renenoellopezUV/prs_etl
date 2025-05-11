@@ -72,12 +72,12 @@ export async function insertPRSModel(data: any) {
     });
   }
 
-  // Si no la encontró por PMID, busca por pgpId
-  if (!publication && data.publicationId) {
-    publication = await prisma.publication.findUnique({
-      where: { pgpId: data.publicationId },
-    });
-  }
+  // // Si no la encontró por PMID, busca por pgpId
+  // if (!publication && data.publicationId) {
+  //   publication = await prisma.publication.findUnique({
+  //     where: { pgpId: data.publicationId },
+  //   });
+  // }
 
   if (!publication) {
     throw new Error(`❌ No se encontró la publicación con PMID '${data.publicationPmid}' ni pgpId '${data.publicationId}'`);
@@ -122,6 +122,7 @@ export async function connectPRSModelWithTrait(pgscId: string, traitId: string) 
         { mondoId: traitId },
         { hpoId: traitId },
         { orphaId: traitId },
+        { otherId: traitId },
       ]
     }
   })
@@ -192,19 +193,22 @@ export async function getBroadAncestryCategoryIdByLabel(label: string): Promise<
 
 
 export async function insertModelEvaluation(data: any) {
-  const pgscId = data.pgscId
-  const pgpId = data.pgpId
+  const pgscId = data.pgscId ?? null;
+  const PMID = data.PMID ? data.PMID.toString() : null; 
   const evaluationPopulationSampleId = data.evaluationPopulationSampleId
 
+  if (!pgscId) throw new Error('❌ pgscId es nulo o indefinido.');
+  if (!PMID) throw new Error('❌ PMID es nulo o indefinido.');
+  
   const prsModel = await prisma.pRSModel.findUnique({
     where: { pgscId }
   })
   if (!prsModel) throw new Error(`❌ PRSModel no encontrado: ${pgscId}`)
 
   const publication = await prisma.publication.findUnique({
-    where: { pgpId }
+    where: { PMID }
   })
-  if (!publication) throw new Error(`❌ Publication no encontrada: ${pgpId}`)
+  if (!publication) throw new Error(`❌ Publication no encontrada: ${PMID}`)
 
   return await prisma.modelEvaluation.create({
     data: {

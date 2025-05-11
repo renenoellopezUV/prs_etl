@@ -22,7 +22,7 @@ model Trait {
   mondoId     String?                @unique
   hpoId       String?                @unique
   orphaId     String?                @unique
-  otherId     String?                @unique
+  otherId     String?
   prsModels   PRSModelToTrait[]
   categories  TraitToTraitCategory[]
 }
@@ -129,7 +129,7 @@ model PerformanceMetric {
 
 model EvaluationPopulationSample {
   id                    Int                   @id @default(autoincrement())
-  numberOfIndividuals   Int?
+  numberOfIndividuals   Int
   numberOfCases         Int?
   numberOfControls      Int?
   percentMale           Float?
@@ -179,7 +179,7 @@ model DevelopmentPopulationSample {
   percentMale           Float?
   age                   Float?
   ageUnits              String?
-  ancestryBroad         String
+  ancestryBroad         String                @db.Text
   ancestryDetails       String?               @db.Text
   cohort                String                @db.Text
   gcId                  String?
@@ -210,6 +210,8 @@ model ReferencePopulation {
   id                      Int                     @id @default(autoincrement())
   name                    String
   description             String?
+  date                    DateTime
+  path                    String
   studyName               String
   studyURL                String?
   numberOfvariants        Int?

@@ -134,28 +134,35 @@ type RawPRSModelSamples = {
 }
 
 export function extractDevelopmentPopulationSamples(raw: RawPRSModelSamples): any[] {
-  const extract = (sample: RawSample, role: string) => ({
-    numberOfIndividuals: sample.sample_number,
-    numberOfCases: sample.sample_cases,
-    numberOfControls: sample.sample_controls,
-    percentMale: sample.sample_percent_male,
-    age: sample.sample_age?.estimate ?? null,
-    ageUnits: sample.sample_age?.unit ?? null,
-    ancestryBroad: sample.ancestry_broad,
-    ancestryDetails: sample.ancestry_free,
-    cohort: sample.cohorts?.map(c => `${c.name_full} (${c.name_short})`).join(', ') ?? null,
-    gcId: sample.source_GWAS_catalog,
-    sourcePMID: sample.source_PMID?.toString() ?? null,
-    sourceDOI: sample.source_DOI,
-    role,
-    pgscId: raw.id
-  })
+  const extract = (sample: RawSample, role: string) => {
+    // Extraer el valor de la edad, manejando el caso especial con rango
+    const rawAge = sample.sample_age?.estimate ?? null;
+    const age = rawAge ? parseFloat(rawAge.toString().split('[')[0].trim()) : null;
+
+    return {
+      numberOfIndividuals: sample.sample_number,
+      numberOfCases: sample.sample_cases,
+      numberOfControls: sample.sample_controls,
+      percentMale: sample.sample_percent_male,
+      age, 
+      ageUnits: sample.sample_age?.unit ?? null,
+      ancestryBroad: sample.ancestry_broad,
+      ancestryDetails: sample.ancestry_free,
+      cohort: sample.cohorts?.map(c => `${c.name_full} (${c.name_short})`).join(', ') ?? null,
+      gcId: sample.source_GWAS_catalog,
+      sourcePMID: sample.source_PMID?.toString() ?? null,
+      sourceDOI: sample.source_DOI,
+      role,
+      pgscId: raw.id
+    };
+  };
 
   return [
     ...(raw.samples_variants || []).map(s => extract(s, 'BASE')),
     ...(raw.samples_training || []).map(s => extract(s, 'TUNING')),
-  ]
+  ];
 }
+
 
 export function transformBroadAncestryCategories(rawData: Record<string, any>) {
   return Object.entries(rawData).map(([symbol, value]) => ({
@@ -172,23 +179,28 @@ export function transformModelEvaluation(raw: any) {
     reportedTrait: raw.phenotyping_reported,
     covariates: raw.covariates ?? null,
     pgscId: raw.associated_pgs_id,
+    PMID: raw.publication?.PMID ?? null,
     pgpId: raw.publication?.id ?? null,
   }
 }
 
 export function transformEvaluationSample(raw: any): any {
-  const sample = raw.sampleset?.samples?.[0]
+  const sample = raw.sampleset?.samples?.[0];
   const cohorts = (sample?.cohorts || []).map(
     (c: any) => `${c.name_full} (${c.name_short})`
-  ).join(', ')
+  ).join(', ');
+
+  // Extraer el valor de la edad, manejando el caso especial con rango
+  const rawAge = sample?.sample_age?.estimate ?? null;
+  const age = rawAge ? parseFloat(rawAge.toString().split('[')[0].trim()) : null;
 
   return {
     numberOfIndividuals: sample?.sample_number ?? null,
     numberOfCases: sample?.sample_cases ?? null,
     numberOfControls: sample?.sample_controls ?? null,
     percentMale: sample?.sample_percent_male ?? null,
-    age: sample?.sample_age?.estimate ?? null, 
-    ageUnits: sample?.sample_age?.unit ?? null, 
+    age, 
+    ageUnits: sample?.sample_age?.unit ?? null,
     ancestryBroad: sample?.ancestry_broad ?? null,
     ancestryDetails: sample?.ancestry_free ?? null,
     cohort: cohorts,
@@ -197,5 +209,6 @@ export function transformEvaluationSample(raw: any): any {
     sourceDOI: sample?.source_DOI ?? null,
     phenotypeFree: sample?.phenotyping_free ?? null,
     pssId: raw.sampleset?.id ?? null,
-  }
+  };
 }
+
