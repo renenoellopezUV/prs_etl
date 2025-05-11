@@ -79,7 +79,13 @@ export const BROAD_ANCESTRY_MAPPING: Record<string, string> = {
 "African American or Afro-Caribbean, Sub-Saharan African, African unspecified":"African",
 "European, African unspecified, Hispanic or Latin American, Asian unspecified":"Multi-Ancestry (including European)",
 "European, African American or Afro-Caribbean, Hispanic or Latin American, Asian unspecified":"Multi-Ancestry (including European)",
-"East Asian, European, Hispanic or Latin American":"Multi-Ancestry (including European)"
+"East Asian, European, Hispanic or Latin American":"Multi-Ancestry (including European)",
+"European, East Asian, African American or Afro-Caribbean, Oceanian, Hispanic or Latin American, South Asian, African unspecified, NR":"Multi-Ancestry (including European)",
+"European, East Asian, African unspecified":"Multi-Ancestry (including European)",
+"European, African unspecified, NR":"Multi-Ancestry (including European)",
+"European, South Asian, African American or Afro-Caribbean, African unspecified, East Asian, Asian unspecified": "Multi-Ancestry (including European)",
+"European, African unspecified, South Asian, East Asian, NR": "Multi-Ancestry (including European)",
+"European, African unspecified":"Multi-Ancestry (including European)"
   };
   
 
