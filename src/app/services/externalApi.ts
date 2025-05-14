@@ -138,8 +138,30 @@ export async function fetchBroadAncestryCategories(): Promise<Record<string, any
 }
 
 
-export async function fetchAllModelEvaluationsIncremental(onBatch: (batch: any[]) => Promise<void>) {
+// export async function fetchAllModelEvaluationsIncremental(onBatch: (batch: any[]) => Promise<void>) {
+//   let nextUrl: string | null = `${BASE_URL}/performance/all`
+
+//   while (nextUrl) {
+//     const res: Response = await fetch(nextUrl)
+
+//     if (!res.ok) {
+//       throw new Error(`Error al obtener model evaluations: ${res.statusText}`)
+//     }
+
+//     const data: any = await res.json()
+//     console.log(`📦 Página recibida: ${data.results.length} evaluations`)
+
+//     await onBatch(data.results)
+//     nextUrl = data.next
+//   }
+// }
+
+export async function fetchAllModelEvaluationsIncremental(
+  onBatch: (batch: any[]) => Promise<void>,
+  startPpmId?: string
+) {
   let nextUrl: string | null = `${BASE_URL}/performance/all`
+  let resume = false
 
   while (nextUrl) {
     const res: Response = await fetch(nextUrl)
@@ -151,7 +173,23 @@ export async function fetchAllModelEvaluationsIncremental(onBatch: (batch: any[]
     const data: any = await res.json()
     console.log(`📦 Página recibida: ${data.results.length} evaluations`)
 
+    // Si se proporciona startPpmId, busca el ID en los resultados
+    if (startPpmId && !resume) {
+      const startIndex = data.results.findIndex((item: any) => item.id === startPpmId)
+      if (startIndex === -1) {
+        console.log(`⚠️ PPM ID ${startPpmId} no encontrado en esta página. Continuando con la siguiente.`)
+        nextUrl = data.next
+        continue
+      }
+      console.log(`🔄 Reanudando desde PPM ID ${startPpmId}`)
+      // Recortar los resultados desde el punto de inicio
+      data.results = data.results.slice(startIndex)
+      resume = true
+    }
+
     await onBatch(data.results)
     nextUrl = data.next
   }
+
+  console.log(`✅ ETL completo.`)
 }

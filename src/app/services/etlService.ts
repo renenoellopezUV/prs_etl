@@ -175,8 +175,10 @@ export async function runBroadAncestryCategoryETL() {
   }
 }
 
-export async function runModelEvaluationETL() {
+export async function runModelEvaluationETL(startPpmId?: string) {
   const logPath = path.join(process.cwd(), 'data', 'modelEvaluation_log.txt')
+
+  console.log(`🚀 Iniciando ETL de Model Evaluations${startPpmId ? ` desde PPM ID ${startPpmId}` : ''}`)
 
   await fetchAllModelEvaluationsIncremental(async (batch) => {
     for (const raw of batch) {
@@ -261,8 +263,9 @@ export async function runModelEvaluationETL() {
         log(logPath, errMsg)
       }
     }
-  })
+  }, startPpmId)  // Se pasa el PPM ID de inicio
 }
+
 
 
 export async function runBroadAncestryInModelETL() {
