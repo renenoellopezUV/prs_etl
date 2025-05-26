@@ -193,3 +193,27 @@ export async function fetchAllModelEvaluationsIncremental(
 
   console.log(`✅ ETL completo.`)
 }
+
+export async function fetchModelEvaluationsByIds(ppmIds: string[]): Promise<any[]> {
+  const results: any[] = []
+
+  for (const ppmId of ppmIds) {
+    const url = `${BASE_URL}/performance/${ppmId}`
+
+    try {
+      const res = await fetch(url)
+
+      if (!res.ok) {
+        console.warn(`⚠️ No se pudo obtener el model evaluation con ID ${ppmId}: ${res.statusText}`)
+        continue
+      }
+
+      const data = await res.json()
+      results.push(data)
+    } catch (error) {
+      console.error(`❌ Error al obtener el model evaluation con ID ${ppmId}: ${error}`)
+    }
+  }
+
+  return results
+}

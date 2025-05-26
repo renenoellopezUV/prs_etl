@@ -5,6 +5,7 @@ import { insertBroadAncestryInModel, insertPerformanceMetricEvaluation, findOrCr
 import { log } from '../../utils/logging'
 import { getBroadAncestryLabelFromRaw, BROAD_ANCESTRY_MAPPING } from '../../utils/broadAncestryMapping'
 import { prisma } from '@/utils/prisma'
+import { fetchModelEvaluationsByIds } from './externalApi'
 
 
 export async function runTraitETL() {
@@ -175,97 +176,100 @@ export async function runBroadAncestryCategoryETL() {
   }
 }
 
-export async function runModelEvaluationETL(startPpmId?: string) {
-  const logPath = path.join(process.cwd(), 'data', 'modelEvaluation_log.txt')
 
-  console.log(`🚀 Iniciando ETL de Model Evaluations${startPpmId ? ` desde PPM ID ${startPpmId}` : ''}`)
+async function processModelEvaluations(results: any[], logPath: string) {
+  for (const raw of results) {
+    try {
+      // Transformar EvaluationSample
+      const evaluationSampleData = transformEvaluationSample(raw)
+      const normalized = evaluationSampleData.ancestryBroad
+      const ancestryGroup = BROAD_ANCESTRY_MAPPING[normalized] ?? null
 
-  await fetchAllModelEvaluationsIncremental(async (batch) => {
-    for (const raw of batch) {
-      try {
-        // Transformar EvaluationSample
-        const evaluationSampleData = transformEvaluationSample(raw)
-
-        const normalized = evaluationSampleData.ancestryBroad
-        const ancestryGroup = BROAD_ANCESTRY_MAPPING[normalized] ?? null
-
-        if (!ancestryGroup) {
-          const warnMsg = `⚠️ Ancestría no mapeada para: ${normalized} (PPM ID ${raw.id})`
-          console.warn(warnMsg)
-          log(logPath, warnMsg)
-          continue
-        }
-
-        const broadAncestryId = await getBroadAncestryCategoryIdByLabel(ancestryGroup)
-
-        if (!broadAncestryId) {
-          const warnMsg = `⚠️ No se encontró BroadAncestry para ancestry_broad='${evaluationSampleData.ancestryBroad}' (normalizado: '${ancestryGroup}') en PPM ID ${raw.id}`
-          console.warn(warnMsg)
-          log(logPath, warnMsg)
-          continue
-        }
-
-        // Crear o reutilizar Evaluation Sample
-        const evaluationSample = await findOrCreateEvaluationSample({
-          ...evaluationSampleData,
-          broadAncestryId
-        })
-
-        if (!evaluationSample) {
-          const msg = `⚠️ No se pudo procesar el sample para PPM ID ${raw.id}`
-          console.warn(msg)
-          log(logPath, msg)
-          continue
-        }
-
-        // Crear ModelEvaluation asociado
-        const transformed = transformModelEvaluation(raw)
-        const inserted = await insertModelEvaluation({
-          ...transformed,
-          evaluationPopulationSampleId: evaluationSample.id,
-        })
-
-        const msg = `✅ ModelEvaluation insertado: ${inserted.ppmId}`
-        console.log(msg)
-        log(logPath, msg)
-
-        // Procesar métricas de performance
-        const allMetrics = [
-          ...(raw.performance_metrics?.effect_sizes || []).map((m: any) => ({ ...m, type: 'RISK_ASSOCIATION' })),
-          ...(raw.performance_metrics?.class_acc || []).map((m: any) => ({ ...m, type: 'DISCRIMINATING_POWER' })),
-          ...(raw.performance_metrics?.othermetrics || []).map((m: any) => ({ ...m, type: 'OTHER' }))
-        ]
-
-        for (const metric of allMetrics) {
-          try {
-            const performanceMetric = await findOrCreatePerformanceMetric({
-              nameShort: metric.name_short,
-              nameLong: metric.name_long,
-              type: metric.type,
-            })
-
-            await insertPerformanceMetricEvaluation({
-              modelEvaluationId: inserted.id,
-              performanceMetricId: performanceMetric.id,
-              estimate: metric.estimate,
-              ciLower: metric.ci_lower ?? null,
-              ciUpper: metric.ci_upper ?? null
-            })
-          } catch (metricError) {
-            const errorMsg = `❌ Error al insertar PerformanceMetric para PPM ${raw.id}: ${metric.name_short} (${metric.type}): ${metricError}`
-            console.error(errorMsg)
-            log(logPath, errorMsg)
-          }
-        }
-      } catch (error) {
-        const errMsg = `❌ Error al insertar ModelEvaluation PPM ID ${raw.id}: ${error}`
-        console.error(errMsg)
-        log(logPath, errMsg)
+      if (!ancestryGroup) {
+        const warnMsg = `⚠️ Ancestría no mapeada para: ${normalized} (PPM ID ${raw.id})`
+        console.warn(warnMsg)
+        log(logPath, warnMsg)
+        continue
       }
+
+      const broadAncestryId = await getBroadAncestryCategoryIdByLabel(ancestryGroup)
+
+      if (!broadAncestryId) {
+        const warnMsg = `⚠️ No se encontró BroadAncestry para ancestry_broad='${evaluationSampleData.ancestryBroad}' (normalizado: '${ancestryGroup}') en PPM ID ${raw.id}`
+        console.warn(warnMsg)
+        log(logPath, warnMsg)
+        continue
+      }
+
+      const evaluationSample = await findOrCreateEvaluationSample({
+        ...evaluationSampleData,
+        broadAncestryId,
+      })
+
+      if (!evaluationSample) {
+        const msg = `⚠️ No se pudo procesar el sample para PPM ID ${raw.id}`
+        console.warn(msg)
+        log(logPath, msg)
+        continue
+      }
+
+      const transformed = transformModelEvaluation(raw)
+      const inserted = await insertModelEvaluation({
+        ...transformed,
+        evaluationPopulationSampleId: evaluationSample.id,
+      })
+
+      const msg = `✅ ModelEvaluation insertado: ${inserted.ppmId}`
+      console.log(msg)
+      log(logPath, msg)
+
+      const allMetrics = [
+        ...(raw.performance_metrics?.effect_sizes || []).map((m: any) => ({ ...m, type: 'RISK_ASSOCIATION' })),
+        ...(raw.performance_metrics?.class_acc || []).map((m: any) => ({ ...m, type: 'DISCRIMINATING_POWER' })),
+        ...(raw.performance_metrics?.othermetrics || []).map((m: any) => ({ ...m, type: 'OTHER' })),
+      ]
+
+      for (const metric of allMetrics) {
+        try {
+          const performanceMetric = await findOrCreatePerformanceMetric({
+            nameShort: metric.name_short,
+            nameLong: metric.name_long,
+            type: metric.type,
+          })
+
+          await insertPerformanceMetricEvaluation({
+            modelEvaluationId: inserted.id,
+            performanceMetricId: performanceMetric.id,
+            estimate: metric.estimate,
+            ciLower: metric.ci_lower ?? null,
+            ciUpper: metric.ci_upper ?? null,
+          })
+        } catch (metricError) {
+          const errorMsg = `❌ Error al insertar PerformanceMetric para PPM ${raw.id}: ${metric.name_short} (${metric.type}): ${metricError}`
+          console.error(errorMsg)
+          log(logPath, errorMsg)
+        }
+      }
+    } catch (error) {
+      const errMsg = `❌ Error al insertar ModelEvaluation PPM ID ${raw.id}: ${error}`
+      console.error(errMsg)
+      log(logPath, errMsg)
     }
-  }, startPpmId)  // Se pasa el PPM ID de inicio
+  }
 }
 
+export async function runSelectedModelEvaluationsETL(ppmIds: string[]) {
+  const logPath = path.join(process.cwd(), 'data', 'modelEvaluation_selected_log.txt')
+  const results = await fetchModelEvaluationsByIds(ppmIds)
+  await processModelEvaluations(results, logPath)
+}
+
+export async function runModelEvaluationETL(startAfterPpmId?: string) {
+  const logPath = path.join(process.cwd(), 'data', 'modelEvaluation_log.txt')
+  await fetchAllModelEvaluationsIncremental(async (batch) => {
+    await processModelEvaluations(batch, logPath)
+  }, startAfterPpmId)
+}
 
 
 export async function runBroadAncestryInModelETL() {

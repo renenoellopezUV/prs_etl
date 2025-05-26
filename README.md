@@ -39,4 +39,12 @@ curl NEXT_PUBLIC_API_URL/etl/prsModelTraits
 curl NEXT_PUBLIC_API_URL/etl/broadAncestryCategories
 curl NEXT_PUBLIC_API_URL/etl/developmentSamples
 curl NEXT_PUBLIC_API_URL/etl/modelEvaluations
+curl NEXT_PUBLIC_API_URL/etl/modelEvaluations
+
+- Para retomar desde un ppmid en particular:
+GET /api/etl/modelEvaluations?startPpmId=PPM006212
+
+- Para procesar un conjunto de ppmids:
+GET /api/etl/modelEvaluations?ppmIds=PPM021702, PPM021703
+
 curl NEXT_PUBLIC_API_URL/etl/broadAncestryInModel

@@ -135,7 +135,7 @@ model EvaluationPopulationSample {
   percentMale           Float?
   age                   Float?
   ageUnits              String?
-  ancestryBroad         String
+  ancestryBroad         String                @db.Text
   ancestryDetails       String?               @db.Text
   cohort                String                @db.Text
   gcId                  String?
